@@ -1,0 +1,135 @@
+10-04-2025 21:58:44.321 [Gauge] [DEBUG] Created gauge_screenshots_dir at /home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/.gauge/screenshots
+10-04-2025 21:58:44.321 [Gauge] [DEBUG] Plugin ts is already installed.
+10-04-2025 21:58:44.321 [Gauge] [INFO] Compatible version of plugin html-report not found. Installing plugin html-report...
+10-04-2025 21:58:44.321 [Gauge] [DEBUG] Gathering metadata for html-report
+10-04-2025 21:58:44.321 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=ts&p=ts&o=linux&a=amd64
+10-04-2025 21:58:44.815 [Gauge] [DEBUG] Downloading https://github.com/getgauge/html-report/releases/download/v4.3.1/html-report-4.3.1-linux.x86_64.zip
+10-04-2025 21:58:47.837 [Gauge] [DEBUG] Installing plugin html-report 4.3.1
+10-04-2025 21:58:47.871 [Gauge] [INFO] Successfully installed plugin 'html-report' version 4.3.1
+10-04-2025 21:58:47.872 [Gauge] [INFO] Installing required plugins.
+10-04-2025 21:58:47.872 [Gauge] [DEBUG] Installing plugin 'screenshot'
+10-04-2025 21:58:47.872 [Gauge] [DEBUG] Gathering metadata for screenshot
+10-04-2025 21:58:47.872 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=ts&p=html-report,ts&o=linux&a=amd64
+10-04-2025 21:58:47.937 [Gauge] [DEBUG] Downloading https://github.com/getgauge/gauge_screenshot/releases/download/v0.3.1/screenshot-0.3.1-linux.x86_64.zip
+10-04-2025 21:58:48.795 [Gauge] [DEBUG] Checking updates...
+10-04-2025 21:58:48.795 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=ts&p=html-report,ts&o=linux&a=amd64
+10-04-2025 21:58:48.860 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/ts?l=ts&p=html-report,ts&o=linux&a=amd64
+10-04-2025 21:58:49.730 [Gauge] [DEBUG] Installing plugin screenshot 0.3.1
+10-04-2025 21:58:49.735 [Gauge] [INFO] Successfully installed plugin 'screenshot' version 0.3.1
+10-04-2025 21:58:49.735 [Gauge] [DEBUG] Parsing started.
+10-04-2025 21:58:49.735 [Gauge] [DEBUG] Started concepts parsing.
+10-04-2025 21:58:49.852 [Gauge] [DEBUG] 0 concepts parsing completed.
+10-04-2025 21:58:49.853 [Gauge] [DEBUG] Started specifications parsing.
+10-04-2025 21:58:49.854 [Gauge] [DEBUG] 1 specifications parsing completed.
+10-04-2025 21:58:49.854 [Gauge] [DEBUG] Parsing completed.
+10-04-2025 21:58:50.033 [ts] [ERROR] file:///home/devtaitv/.gauge/plugins/ts/0.3.5/launcher.mjs:8
+10-04-2025 21:58:50.033 [ts] [ERROR] throw new Error(
+10-04-2025 21:58:50.033 [ts] [ERROR] ^
+10-04-2025 21:58:50.033 [ts] [ERROR] Error: gauge-ts requires Node.js version 20+. Current version: 18.19.1
+10-04-2025 21:58:50.033 [ts] [ERROR] at file:///home/devtaitv/.gauge/plugins/ts/0.3.5/launcher.mjs:8:9
+10-04-2025 21:58:50.033 [ts] [ERROR] at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+10-04-2025 21:58:50.033 [ts] [ERROR] at async ModuleLoader.import (node:internal/modules/esm/loader:336:24)
+10-04-2025 21:58:50.033 [ts] [ERROR] at async loadESM (node:internal/process/esm_loader:34:7)
+10-04-2025 21:58:50.033 [ts] [ERROR] at async handleMainPromise (node:internal/modules/run_main:106:12)
+10-04-2025 21:58:50.033 [ts] [ERROR] Node.js v18.19.1
+10-04-2025 21:58:50.037 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 1
+10-04-2025 21:58:50.037 [Gauge] [CRITICAL] Failed to start gauge API: Error occurred while waiting for runner process to finish.
+Error : exit status 1
+10-04-2025 22:01:53.720 [Gauge] [DEBUG] Created gauge_screenshots_dir at /home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/.gauge/screenshots
+10-04-2025 22:01:53.721 [Gauge] [DEBUG] Plugin ts is already installed.
+10-04-2025 22:01:53.721 [Gauge] [DEBUG] Plugin html-report is already installed.
+10-04-2025 22:01:53.721 [Gauge] [DEBUG] Parsing started.
+10-04-2025 22:01:53.721 [Gauge] [DEBUG] Started concepts parsing.
+10-04-2025 22:01:53.810 [Gauge] [DEBUG] 0 concepts parsing completed.
+10-04-2025 22:01:53.810 [Gauge] [DEBUG] Started specifications parsing.
+10-04-2025 22:01:53.811 [Gauge] [DEBUG] 1 specifications parsing completed.
+10-04-2025 22:01:53.811 [Gauge] [DEBUG] Parsing completed.
+10-04-2025 22:01:54.014 [ts] [ERROR] file:///home/devtaitv/.gauge/plugins/ts/0.3.5/launcher.mjs:8
+10-04-2025 22:01:54.014 [ts] [ERROR] throw new Error(
+10-04-2025 22:01:54.014 [ts] [ERROR] ^
+10-04-2025 22:01:54.014 [ts] [ERROR] Error: gauge-ts requires Node.js version 20+. Current version: 18.19.1
+10-04-2025 22:01:54.014 [ts] [ERROR] at file:///home/devtaitv/.gauge/plugins/ts/0.3.5/launcher.mjs:8:9
+10-04-2025 22:01:54.014 [ts] [ERROR] at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+10-04-2025 22:01:54.014 [ts] [ERROR] at async ModuleLoader.import (node:internal/modules/esm/loader:336:24)
+10-04-2025 22:01:54.014 [ts] [ERROR] at async loadESM (node:internal/process/esm_loader:34:7)
+10-04-2025 22:01:54.014 [ts] [ERROR] at async handleMainPromise (node:internal/modules/run_main:106:12)
+10-04-2025 22:01:54.014 [ts] [ERROR] Node.js v18.19.1
+10-04-2025 22:01:54.020 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 1
+10-04-2025 22:01:54.020 [Gauge] [CRITICAL] Failed to start gauge API: Error occurred while waiting for runner process to finish.
+Error : exit status 1
+10-04-2025 22:02:35.255 [Gauge] [DEBUG] Created gauge_screenshots_dir at /home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/.gauge/screenshots
+10-04-2025 22:02:35.255 [Gauge] [DEBUG] Plugin ts is already installed.
+10-04-2025 22:02:35.255 [Gauge] [DEBUG] Plugin html-report is already installed.
+10-04-2025 22:02:35.255 [Gauge] [DEBUG] Parsing started.
+10-04-2025 22:02:35.255 [Gauge] [DEBUG] Started concepts parsing.
+10-04-2025 22:02:35.343 [Gauge] [DEBUG] 0 concepts parsing completed.
+10-04-2025 22:02:35.343 [Gauge] [DEBUG] Started specifications parsing.
+10-04-2025 22:02:35.344 [Gauge] [DEBUG] 1 specifications parsing completed.
+10-04-2025 22:02:35.344 [Gauge] [DEBUG] Parsing completed.
+10-04-2025 22:02:35.991 [Gauge] [DEBUG] Checking updates...
+10-04-2025 22:02:35.992 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=ts&p=html-report,screenshot,ts&o=linux&a=amd64
+10-04-2025 22:02:36.610 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=ts&p=html-report,screenshot,ts&o=linux&a=amd64
+10-04-2025 22:02:36.675 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/ts?l=ts&p=html-report,screenshot,ts&o=linux&a=amd64
+10-04-2025 22:02:37.610 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 44081
+10-04-2025 22:02:37.610 [Gauge] [DEBUG] Successfully made the connection with runner with port: 44081
+10-04-2025 22:02:37.611 [Gauge] [DEBUG] Validation started.
+10-04-2025 22:02:37.639 [Gauge] [DEBUG] Validation completed.
+10-04-2025 22:02:37.639 [Gauge] [DEBUG] Run started
+10-04-2025 22:02:37.639 [Gauge] [DEBUG] Starting Html Report plugin
+10-04-2025 22:02:37.647 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+10-04-2025 22:02:37.647 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 43207
+10-04-2025 22:02:37.647 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 43207
+10-04-2025 22:02:37.647 [Gauge] [DEBUG] Initialising suite data store.
+10-04-2025 22:02:38.887 [Gauge] [INFO] # Getting Started with Gauge
+10-04-2025 22:02:38.896 [Gauge] [INFO] ## Display number of items
+10-04-2025 22:02:38.901 [Gauge] [DEBUG] * Open todo application
+
+10-04-2025 22:02:39.443 [Gauge] [DEBUG] * Add task "first task"
+10-04-2025 22:02:40.689 [Gauge] [DEBUG] * Must display "1 item left"
+10-04-2025 22:02:40.707 [Gauge] [DEBUG] * Add task "second task"
+10-04-2025 22:02:41.969 [Gauge] [DEBUG] * Must display "2 items left"
+
+10-04-2025 22:02:41.984 [Gauge] [DEBUG] * Clear all tasks
+10-04-2025 22:02:43.110 [Gauge] [INFO] ## Must list only active tasks
+10-04-2025 22:02:43.114 [Gauge] [DEBUG] * Open todo application
+
+10-04-2025 22:02:43.351 [Gauge] [DEBUG] * Add tasks 
+
+   |description|
+   |-----------|
+   |first task |
+   |second task|
+   |third task |
+   |fourth task|
+   |fifth task |
+10-04-2025 22:02:49.559 [Gauge] [DEBUG] * Complete tasks 
+
+   |description|
+   |-----------|
+   |second task|
+   |fifth task |
+10-04-2025 22:02:51.803 [Gauge] [DEBUG] * View "Active" tasks
+10-04-2025 22:02:52.861 [Gauge] [DEBUG] * Must have 
+
+   |description|
+   |-----------|
+   |first task |
+   |third task |
+   |fourth task|
+10-04-2025 22:02:52.882 [Gauge] [DEBUG] * Must not have 
+
+   |description|
+   |-----------|
+   |second task|
+   |fifth task |
+10-04-2025 22:02:52.907 [Gauge] [DEBUG] * Clear all tasks
+10-04-2025 22:02:54.170 [html-report] [DEBUG] Transformed SuiteResult to report structure
+10-04-2025 22:02:54.209 [html-report] [INFO] Successfully generated html-report to => /home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/reports/html-report/index.html
+10-04-2025 22:02:54.209 [html-report] [DEBUG] Done generating HTML report using theme from /home/devtaitv/.gauge/plugins/html-report/4.3.1/themes/default
+10-04-2025 22:02:54.209 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+10-04-2025 22:02:54.213 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+10-04-2025 22:02:54.213 [Gauge] [INFO] Scenarios:	2 executed	2 passed	0 failed	0 skipped
+10-04-2025 22:02:54.213 [Gauge] [INFO] 
+Total time taken: 16.529s
