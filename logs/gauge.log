@@ -1,0 +1,888 @@
+11-04-2025 18:22:52.173 [Gauge] [DEBUG] Created gauge_screenshots_dir at /home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/.gauge/screenshots
+11-04-2025 18:22:52.174 [Gauge] [DEBUG] Plugin ts is already installed.
+11-04-2025 18:22:52.175 [Gauge] [DEBUG] Plugin html-report is already installed.
+11-04-2025 18:22:52.176 [Gauge] [DEBUG] Parsing started.
+11-04-2025 18:22:52.176 [Gauge] [DEBUG] Started concepts parsing.
+11-04-2025 18:22:52.632 [Gauge] [DEBUG] 0 concepts parsing completed.
+11-04-2025 18:22:52.632 [Gauge] [DEBUG] Started specifications parsing.
+11-04-2025 18:22:52.633 [Gauge] [DEBUG] 1 specifications parsing completed.
+11-04-2025 18:22:52.633 [Gauge] [DEBUG] Parsing completed.
+11-04-2025 18:22:53.160 [Gauge] [DEBUG] Checking updates...
+11-04-2025 18:22:53.160 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=ts&p=html-report,screenshot,ts&o=linux&a=amd64
+11-04-2025 18:22:53.433 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=ts&p=html-report,screenshot,ts&o=linux&a=amd64
+11-04-2025 18:22:53.738 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/ts?l=ts&p=html-report,screenshot,ts&o=linux&a=amd64
+11-04-2025 18:22:55.184 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 36551
+11-04-2025 18:22:55.187 [Gauge] [DEBUG] Successfully made the connection with runner with port: 36551
+11-04-2025 18:22:55.187 [Gauge] [DEBUG] Validation started.
+11-04-2025 18:22:55.223 [Gauge] [ERROR] [ValidationError] /home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/specs/admin/admin_category.spec:24 Step implementation not found => 'Kiểm tra thông báo lỗi "Please fill out this field"'
+11-04-2025 18:22:55.223 [Gauge] [ERROR] [ValidationError] /home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/specs/admin/admin_category.spec:33 Step implementation not found => 'Kiểm tra thông báo lỗi "Vui lòng chọn hình ảnh"'
+11-04-2025 18:22:55.223 [Gauge] [ERROR] [ValidationError] /home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/specs/admin/admin_category.spec:43 Step implementation not found => 'Kiểm tra thông báo lỗi "Danh mục với tên này đã tồn tại."'
+11-04-2025 18:22:55.223 [Gauge] [ERROR] [ValidationError] /home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/specs/admin/admin_category.spec:50 Step implementation not found => 'Xóa tên hiện tại và để trống'
+11-04-2025 18:22:55.223 [Gauge] [ERROR] [ValidationError] /home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/specs/admin/admin_category.spec:52 Step implementation not found => 'Kiểm tra thông báo lỗi "Please fill out this field"'
+11-04-2025 18:22:55.223 [Gauge] [INFO] Add the following missing implementations to fix `Step implementation not found` errors.
+11-04-2025 18:22:55.223 [Gauge] [INFO] @Step("Kiểm tra thông báo lỗi <Please fill out this field>")
+public async implementationf4c934edbacec4d94c66(arg0: any) {
+	throw new Error("Method not implemented.");
+}
+11-04-2025 18:22:55.223 [Gauge] [INFO] @Step("Xóa tên hiện tại và để trống")
+public async implementatione833f7171d477d21cb79() {
+	throw new Error("Method not implemented.");
+}
+11-04-2025 18:22:55.223 [Gauge] [DEBUG] Run started
+11-04-2025 18:22:55.224 [Gauge] [DEBUG] Starting Html Report plugin
+11-04-2025 18:22:55.288 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 45723
+11-04-2025 18:22:55.289 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 45723
+11-04-2025 18:22:55.289 [Gauge] [DEBUG] Initialising suite data store.
+11-04-2025 18:22:58.978 [Gauge] [INFO] # Chức năng quản lý danh mục
+11-04-2025 18:22:58.991 [Gauge] [INFO] ## Truy cập danh sách danh mục
+11-04-2025 18:22:58.999 [Gauge] [DEBUG] * Đăng nhập với tài khoản quản trị hợp lệ
+11-04-2025 18:23:01.172 [Gauge] [DEBUG] * Click vào phần Danh mục
+11-04-2025 18:23:02.329 [Gauge] [DEBUG] * Kiểm tra tiêu đề 'Quản lý Danh mục' được hiển thị
+
+11-04-2025 18:23:02.352 [Gauge] [INFO] ## Thêm mới danh mục
+11-04-2025 18:23:02.358 [Gauge] [DEBUG] * Đăng nhập với tài khoản quản trị hợp lệ
+11-04-2025 18:23:03.240 [Gauge] [DEBUG] * Click vào phần Danh mục
+11-04-2025 18:23:04.082 [Gauge] [DEBUG] * Kiểm tra tiêu đề 'Quản lý Danh mục' được hiển thị
+11-04-2025 18:23:04.098 [Gauge] [DEBUG] * Click vào button Thêm mới
+11-04-2025 18:23:04.223 [Gauge] [DEBUG] * Nhập tên danh mục hợp lệ "Test Áo"
+11-04-2025 18:23:04.300 [Gauge] [DEBUG] * Chọn hình ảnh danh mục
+11-04-2025 18:23:04.507 [Gauge] [DEBUG] * Click vào button Thêm Danh Mục
+
+11-04-2025 18:23:04.945 [html-report] [DEBUG] Transformed SuiteResult to report structure
+11-04-2025 18:23:04.974 [html-report] [INFO] Successfully generated html-report to => /home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/reports/html-report/index.html
+11-04-2025 18:23:04.974 [html-report] [DEBUG] Done generating HTML report using theme from /home/devtaitv/.gauge/plugins/html-report/4.3.1/themes/default
+11-04-2025 18:23:04.974 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+11-04-2025 18:23:04.977 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+11-04-2025 18:23:04.977 [Gauge] [INFO] Scenarios:	2 executed	2 passed	0 failed	4 skipped
+11-04-2025 18:23:04.977 [Gauge] [INFO] 
+Total time taken: 9.72s
+11-04-2025 18:25:05.397 [Gauge] [DEBUG] Created gauge_screenshots_dir at /home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/.gauge/screenshots
+11-04-2025 18:25:05.397 [Gauge] [DEBUG] Plugin html-report is already installed.
+11-04-2025 18:25:05.397 [Gauge] [DEBUG] Plugin ts is already installed.
+11-04-2025 18:25:05.397 [Gauge] [DEBUG] Parsing started.
+11-04-2025 18:25:05.397 [Gauge] [DEBUG] Started concepts parsing.
+11-04-2025 18:25:05.494 [Gauge] [DEBUG] 0 concepts parsing completed.
+11-04-2025 18:25:05.494 [Gauge] [DEBUG] Started specifications parsing.
+11-04-2025 18:25:05.495 [Gauge] [DEBUG] 1 specifications parsing completed.
+11-04-2025 18:25:05.495 [Gauge] [DEBUG] Parsing completed.
+11-04-2025 18:25:06.396 [Gauge] [DEBUG] Checking updates...
+11-04-2025 18:25:06.397 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=ts&p=html-report,screenshot,ts&o=linux&a=amd64
+11-04-2025 18:25:06.639 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=ts&p=html-report,screenshot,ts&o=linux&a=amd64
+11-04-2025 18:25:06.700 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/ts?l=ts&p=html-report,screenshot,ts&o=linux&a=amd64
+11-04-2025 18:25:07.441 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 45061
+11-04-2025 18:25:07.441 [Gauge] [DEBUG] Successfully made the connection with runner with port: 45061
+11-04-2025 18:25:07.442 [Gauge] [DEBUG] Validation started.
+11-04-2025 18:25:07.477 [Gauge] [ERROR] [ValidationError] /home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/specs/admin/admin_category.spec:33 Step implementation not found => 'Kiểm tra thông báo lỗi "Vui lòng chọn hình ảnh"'
+11-04-2025 18:25:07.477 [Gauge] [ERROR] [ValidationError] /home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/specs/admin/admin_category.spec:43 Step implementation not found => 'Kiểm tra thông báo lỗi "Danh mục với tên này đã tồn tại."'
+11-04-2025 18:25:07.477 [Gauge] [ERROR] [ValidationError] /home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/specs/admin/admin_category.spec:50 Step implementation not found => 'Xóa tên hiện tại và để trống'
+11-04-2025 18:25:07.477 [Gauge] [INFO] Add the following missing implementations to fix `Step implementation not found` errors.
+11-04-2025 18:25:07.477 [Gauge] [INFO] @Step("Kiểm tra thông báo lỗi <Vui lòng chọn hình ảnh>")
+public async implementationb4fbde9ff7300ba6af73(arg0: any) {
+	throw new Error("Method not implemented.");
+}
+11-04-2025 18:25:07.477 [Gauge] [INFO] @Step("Xóa tên hiện tại và để trống")
+public async implementation99a3b56bb56e579569c1() {
+	throw new Error("Method not implemented.");
+}
+11-04-2025 18:25:07.477 [Gauge] [DEBUG] Run started
+11-04-2025 18:25:07.478 [Gauge] [DEBUG] Starting Html Report plugin
+11-04-2025 18:25:07.484 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 37447
+11-04-2025 18:25:07.484 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 37447
+11-04-2025 18:25:07.484 [Gauge] [DEBUG] Initialising suite data store.
+11-04-2025 18:25:09.434 [Gauge] [INFO] # Chức năng quản lý danh mục
+11-04-2025 18:25:09.441 [Gauge] [INFO] ## Truy cập danh sách danh mục
+11-04-2025 18:25:09.451 [Gauge] [DEBUG] * Đăng nhập với tài khoản quản trị hợp lệ
+11-04-2025 18:25:11.485 [Gauge] [DEBUG] * Click vào phần Danh mục
+11-04-2025 18:25:12.783 [Gauge] [DEBUG] * Kiểm tra tiêu đề 'Quản lý Danh mục' được hiển thị
+
+11-04-2025 18:25:12.807 [Gauge] [INFO] ## Thêm mới danh mục
+11-04-2025 18:25:12.812 [Gauge] [DEBUG] * Đăng nhập với tài khoản quản trị hợp lệ
+11-04-2025 18:25:13.625 [Gauge] [DEBUG] * Click vào phần Danh mục
+11-04-2025 18:25:14.443 [Gauge] [DEBUG] * Kiểm tra tiêu đề 'Quản lý Danh mục' được hiển thị
+11-04-2025 18:25:14.462 [Gauge] [DEBUG] * Click vào button Thêm mới
+11-04-2025 18:25:14.576 [Gauge] [DEBUG] * Nhập tên danh mục hợp lệ "Test Áo"
+11-04-2025 18:25:14.651 [Gauge] [DEBUG] * Chọn hình ảnh danh mục
+11-04-2025 18:25:14.845 [Gauge] [DEBUG] * Click vào button Thêm Danh Mục
+
+11-04-2025 18:25:15.017 [Gauge] [INFO] ## Thêm mới danh mục - thiếu tên
+11-04-2025 18:25:15.023 [Gauge] [DEBUG] * Đăng nhập với tài khoản quản trị hợp lệ
+11-04-2025 18:25:15.758 [Gauge] [DEBUG] * Click vào phần Danh mục
+11-04-2025 18:25:16.548 [Gauge] [DEBUG] * Kiểm tra tiêu đề 'Quản lý Danh mục' được hiển thị
+11-04-2025 18:25:16.566 [Gauge] [DEBUG] * Click vào button Thêm mới
+11-04-2025 18:25:16.686 [Gauge] [DEBUG] * Chọn hình ảnh danh mục
+11-04-2025 18:25:16.871 [Gauge] [DEBUG] * Click vào button Thêm Danh Mục
+11-04-2025 18:25:16.998 [Gauge] [DEBUG] * Kiểm tra thông báo lỗi thiếu tên danh mục
+
+11-04-2025 18:25:17.574 [Gauge] [ERROR] Failed Step: Kiểm tra thông báo lỗi thiếu tên danh mục
+11-04-2025 18:25:17.574 [Gauge] [ERROR] Error Message: expect(received).toContain(expected) // indexOf
+
+Matcher error: received value must not be null nor undefined
+
+Received has value: null
+11-04-2025 18:25:17.574 [Gauge] [ERROR] Specification: specs/admin/admin_category.spec:24
+11-04-2025 18:25:17.574 [Gauge] [ERROR] Stacktrace: 
+Error: expect(received).toContain(expected) // indexOf
+
+Matcher error: received value must not be null nor undefined
+
+Received has value: null
+    at Proxy.<anonymous> (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/node_modules/playwright/lib/matchers/expect.js:254:37)
+    at CategorySteps.<anonymous> (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/admin/admin_category.step.ts:66:23)
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/admin/admin_category.step.ts:14:58)
+11-04-2025 18:25:17.782 [html-report] [DEBUG] Transformed SuiteResult to report structure
+11-04-2025 18:25:17.803 [html-report] [INFO] Successfully generated html-report to => /home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/reports/html-report/index.html
+11-04-2025 18:25:17.803 [html-report] [DEBUG] Done generating HTML report using theme from /home/devtaitv/.gauge/plugins/html-report/4.3.1/themes/default
+11-04-2025 18:25:17.803 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+11-04-2025 18:25:17.806 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+11-04-2025 18:25:17.806 [Gauge] [INFO] Scenarios:	3 executed	2 passed	1 failed	3 skipped
+11-04-2025 18:25:17.806 [Gauge] [INFO] 
+Total time taken: 10.303s
+11-04-2025 18:27:56.053 [Gauge] [DEBUG] Created gauge_screenshots_dir at /home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/.gauge/screenshots
+11-04-2025 18:27:56.054 [Gauge] [DEBUG] Plugin ts is already installed.
+11-04-2025 18:27:56.054 [Gauge] [DEBUG] Plugin html-report is already installed.
+11-04-2025 18:27:56.054 [Gauge] [DEBUG] Parsing started.
+11-04-2025 18:27:56.054 [Gauge] [DEBUG] Started concepts parsing.
+11-04-2025 18:27:56.148 [Gauge] [DEBUG] 0 concepts parsing completed.
+11-04-2025 18:27:56.148 [Gauge] [DEBUG] Started specifications parsing.
+11-04-2025 18:27:56.149 [Gauge] [DEBUG] 1 specifications parsing completed.
+11-04-2025 18:27:56.149 [Gauge] [DEBUG] Parsing completed.
+11-04-2025 18:27:57.002 [Gauge] [DEBUG] Checking updates...
+11-04-2025 18:27:57.003 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=ts&p=html-report,screenshot,ts&o=linux&a=amd64
+11-04-2025 18:27:57.244 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=ts&p=html-report,screenshot,ts&o=linux&a=amd64
+11-04-2025 18:27:57.547 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/ts?l=ts&p=html-report,screenshot,ts&o=linux&a=amd64
+11-04-2025 18:27:58.088 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 43691
+11-04-2025 18:27:58.088 [Gauge] [DEBUG] Successfully made the connection with runner with port: 43691
+11-04-2025 18:27:58.088 [Gauge] [DEBUG] Validation started.
+11-04-2025 18:27:58.123 [Gauge] [DEBUG] Validation completed.
+11-04-2025 18:27:58.124 [Gauge] [DEBUG] Run started
+11-04-2025 18:27:58.124 [Gauge] [DEBUG] Starting Html Report plugin
+11-04-2025 18:27:58.133 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+11-04-2025 18:27:58.133 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 34923
+11-04-2025 18:27:58.133 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 34923
+11-04-2025 18:27:58.133 [Gauge] [DEBUG] Initialising suite data store.
+11-04-2025 18:28:00.065 [Gauge] [INFO] # Chức năng quản lý danh mục
+11-04-2025 18:28:00.072 [Gauge] [INFO] ## Truy cập danh sách danh mục
+11-04-2025 18:28:00.077 [Gauge] [DEBUG] * Đăng nhập với tài khoản quản trị hợp lệ
+11-04-2025 18:28:02.040 [Gauge] [DEBUG] * Click vào phần Danh mục
+11-04-2025 18:28:03.364 [Gauge] [DEBUG] * Kiểm tra tiêu đề 'Quản lý Danh mục' được hiển thị
+
+11-04-2025 18:28:03.387 [Gauge] [INFO] ## Thêm mới danh mục
+11-04-2025 18:28:03.393 [Gauge] [DEBUG] * Đăng nhập với tài khoản quản trị hợp lệ
+11-04-2025 18:28:04.226 [Gauge] [DEBUG] * Click vào phần Danh mục
+11-04-2025 18:28:05.101 [Gauge] [DEBUG] * Kiểm tra tiêu đề 'Quản lý Danh mục' được hiển thị
+11-04-2025 18:28:05.118 [Gauge] [DEBUG] * Click vào button Thêm mới
+11-04-2025 18:28:05.229 [Gauge] [DEBUG] * Nhập tên danh mục hợp lệ "Test Áo"
+11-04-2025 18:28:05.306 [Gauge] [DEBUG] * Chọn hình ảnh danh mục
+11-04-2025 18:28:05.497 [Gauge] [DEBUG] * Click vào button Thêm Danh Mục
+
+11-04-2025 18:28:05.638 [Gauge] [INFO] ## Thêm mới danh mục - thiếu tên
+11-04-2025 18:28:05.642 [Gauge] [DEBUG] * Đăng nhập với tài khoản quản trị hợp lệ
+11-04-2025 18:28:06.367 [Gauge] [DEBUG] * Click vào phần Danh mục
+11-04-2025 18:28:07.157 [Gauge] [DEBUG] * Kiểm tra tiêu đề 'Quản lý Danh mục' được hiển thị
+11-04-2025 18:28:07.176 [Gauge] [DEBUG] * Click vào button Thêm mới
+11-04-2025 18:28:07.286 [Gauge] [DEBUG] * Chọn hình ảnh danh mục
+11-04-2025 18:28:07.466 [Gauge] [DEBUG] * Click vào button Thêm Danh Mục
+11-04-2025 18:28:07.581 [Gauge] [DEBUG] * Kiểm tra thông báo lỗi thiếu tên danh mục
+
+11-04-2025 18:28:08.027 [Gauge] [ERROR] Failed Step: Kiểm tra thông báo lỗi thiếu tên danh mục
+11-04-2025 18:28:08.027 [Gauge] [ERROR] Error Message: expect(received).toContain(expected) // indexOf
+
+Matcher error: received value must not be null nor undefined
+
+Received has value: null
+11-04-2025 18:28:08.027 [Gauge] [ERROR] Specification: specs/admin/admin_category.spec:24
+11-04-2025 18:28:08.027 [Gauge] [ERROR] Stacktrace: 
+Error: expect(received).toContain(expected) // indexOf
+
+Matcher error: received value must not be null nor undefined
+
+Received has value: null
+    at Proxy.<anonymous> (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/node_modules/playwright/lib/matchers/expect.js:254:37)
+    at CategorySteps.<anonymous> (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/admin/admin_category.step.ts:66:23)
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/admin/admin_category.step.ts:14:58)
+11-04-2025 18:28:08.029 [Gauge] [INFO] ## Thêm mới danh mục - thiếu ảnh
+11-04-2025 18:28:08.033 [Gauge] [DEBUG] * Đăng nhập với tài khoản quản trị hợp lệ
+11-04-2025 18:28:08.781 [Gauge] [DEBUG] * Click vào phần Danh mục
+11-04-2025 18:28:09.523 [Gauge] [DEBUG] * Kiểm tra tiêu đề 'Quản lý Danh mục' được hiển thị
+11-04-2025 18:28:09.542 [Gauge] [DEBUG] * Click vào button Thêm mới
+11-04-2025 18:28:09.653 [Gauge] [DEBUG] * Nhập tên danh mục hợp lệ "Test Áo"
+11-04-2025 18:28:09.726 [Gauge] [DEBUG] * Click vào button Thêm Danh Mục
+11-04-2025 18:28:09.841 [Gauge] [DEBUG] * Kiểm tra thông báo lỗi thiếu hình ảnh
+
+11-04-2025 18:28:09.860 [Gauge] [INFO] ## Thêm mới danh mục - danh mục đã tồn tại
+11-04-2025 18:28:09.864 [Gauge] [DEBUG] * Đăng nhập với tài khoản quản trị hợp lệ
+11-04-2025 18:28:10.591 [Gauge] [DEBUG] * Click vào phần Danh mục
+11-04-2025 18:28:11.329 [Gauge] [DEBUG] * Kiểm tra tiêu đề 'Quản lý Danh mục' được hiển thị
+11-04-2025 18:28:11.344 [Gauge] [DEBUG] * Click vào button Thêm mới
+11-04-2025 18:28:11.451 [Gauge] [DEBUG] * Nhập tên danh mục hợp lệ "Test Áo"
+11-04-2025 18:28:11.526 [Gauge] [DEBUG] * Chọn hình ảnh danh mục
+11-04-2025 18:28:11.694 [Gauge] [DEBUG] * Click vào button Thêm Danh Mục
+11-04-2025 18:28:11.801 [Gauge] [DEBUG] * Kiểm tra thông báo lỗi danh mục trùng tên
+
+11-04-2025 18:28:12.305 [Gauge] [ERROR] Failed Step: Kiểm tra thông báo lỗi danh mục trùng tên
+11-04-2025 18:28:12.305 [Gauge] [ERROR] Error Message: expect(received).toBeTruthy()
+
+Received: false
+11-04-2025 18:28:12.305 [Gauge] [ERROR] Specification: specs/admin/admin_category.spec:43
+11-04-2025 18:28:12.305 [Gauge] [ERROR] Stacktrace: 
+Error: expect(received).toBeTruthy()
+
+Received: false
+    at Proxy.<anonymous> (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/node_modules/playwright/lib/matchers/expect.js:254:37)
+    at CategorySteps.<anonymous> (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/admin/admin_category.step.ts:80:30)
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/admin/admin_category.step.ts:14:58)
+11-04-2025 18:28:12.307 [Gauge] [INFO] ## Chỉnh sửa danh mục - tên trống
+11-04-2025 18:28:12.311 [Gauge] [DEBUG] * Đăng nhập với tài khoản quản trị hợp lệ
+11-04-2025 18:28:13.030 [Gauge] [DEBUG] * Click vào phần Danh mục
+11-04-2025 18:28:13.790 [Gauge] [DEBUG] * Kiểm tra tiêu đề 'Quản lý Danh mục' được hiển thị
+11-04-2025 18:28:13.807 [Gauge] [DEBUG] * Click vào icon chỉnh sửa
+11-04-2025 18:28:14.718 [Gauge] [DEBUG] * Xóa tên danh mục hiện tại và để trống
+11-04-2025 18:28:14.807 [Gauge] [DEBUG] * Click vào button Cập nhật Danh Mục
+11-04-2025 18:28:14.975 [Gauge] [DEBUG] * Kiểm tra thông báo lỗi thiếu tên danh mục
+11-04-2025 18:28:15.496 [Gauge] [ERROR] Failed Step: Kiểm tra thông báo lỗi thiếu tên danh mục
+11-04-2025 18:28:15.496 [Gauge] [ERROR] Error Message: expect(received).toContain(expected) // indexOf
+
+Matcher error: received value must not be null nor undefined
+
+Received has value: null
+11-04-2025 18:28:15.496 [Gauge] [ERROR] Specification: specs/admin/admin_category.spec:52
+11-04-2025 18:28:15.496 [Gauge] [ERROR] Stacktrace: 
+Error: expect(received).toContain(expected) // indexOf
+
+Matcher error: received value must not be null nor undefined
+
+Received has value: null
+    at Proxy.<anonymous> (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/node_modules/playwright/lib/matchers/expect.js:254:37)
+    at CategorySteps.<anonymous> (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/admin/admin_category.step.ts:66:23)
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/admin/admin_category.step.ts:14:58)
+11-04-2025 18:28:15.699 [html-report] [DEBUG] Transformed SuiteResult to report structure
+11-04-2025 18:28:15.730 [html-report] [INFO] Successfully generated html-report to => /home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/reports/html-report/index.html
+11-04-2025 18:28:15.730 [html-report] [DEBUG] Done generating HTML report using theme from /home/devtaitv/.gauge/plugins/html-report/4.3.1/themes/default
+11-04-2025 18:28:15.731 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+11-04-2025 18:28:15.733 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+11-04-2025 18:28:15.734 [Gauge] [INFO] Scenarios:	6 executed	3 passed	3 failed	0 skipped
+11-04-2025 18:28:15.734 [Gauge] [INFO] 
+Total time taken: 17.574s
+11-04-2025 18:32:04.931 [Gauge] [DEBUG] Created gauge_screenshots_dir at /home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/.gauge/screenshots
+11-04-2025 18:32:04.931 [Gauge] [DEBUG] Plugin ts is already installed.
+11-04-2025 18:32:04.931 [Gauge] [DEBUG] Plugin html-report is already installed.
+11-04-2025 18:32:04.931 [Gauge] [DEBUG] Parsing started.
+11-04-2025 18:32:04.931 [Gauge] [DEBUG] Started concepts parsing.
+11-04-2025 18:32:05.025 [Gauge] [DEBUG] 0 concepts parsing completed.
+11-04-2025 18:32:05.025 [Gauge] [DEBUG] Started specifications parsing.
+11-04-2025 18:32:05.026 [Gauge] [DEBUG] 1 specifications parsing completed.
+11-04-2025 18:32:05.026 [Gauge] [DEBUG] Parsing completed.
+11-04-2025 18:32:05.900 [Gauge] [DEBUG] Checking updates...
+11-04-2025 18:32:05.900 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=ts&p=html-report,screenshot,ts&o=linux&a=amd64
+11-04-2025 18:32:06.162 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=ts&p=html-report,screenshot,ts&o=linux&a=amd64
+11-04-2025 18:32:06.225 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/ts?l=ts&p=html-report,screenshot,ts&o=linux&a=amd64
+11-04-2025 18:32:07.032 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 45319
+11-04-2025 18:32:07.032 [Gauge] [DEBUG] Successfully made the connection with runner with port: 45319
+11-04-2025 18:32:07.032 [Gauge] [DEBUG] Validation started.
+11-04-2025 18:32:07.068 [Gauge] [DEBUG] Validation completed.
+11-04-2025 18:32:07.068 [Gauge] [DEBUG] Run started
+11-04-2025 18:32:07.069 [Gauge] [DEBUG] Starting Html Report plugin
+11-04-2025 18:32:07.077 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 45913
+11-04-2025 18:32:07.077 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 45913
+11-04-2025 18:32:07.077 [Gauge] [DEBUG] Initialising suite data store.
+11-04-2025 18:32:07.653 [ts] [ERROR] tests/admin/admin_category.step.ts(69,44): error TS2304: Cannot find name 'HTMLInputElement'.
+11-04-2025 18:32:07.653 [ts] [ERROR] tests/admin/admin_category.step.ts(77,18): error TS2304: Cannot find name 'HTMLInputElement'.
+11-04-2025 18:32:09.097 [Gauge] [INFO] # Chức năng quản lý danh mục
+11-04-2025 18:32:09.103 [Gauge] [INFO] ## Truy cập danh sách danh mục
+11-04-2025 18:32:09.110 [Gauge] [DEBUG] * Đăng nhập với tài khoản quản trị hợp lệ
+11-04-2025 18:32:11.086 [Gauge] [DEBUG] * Click vào phần Danh mục
+11-04-2025 18:32:11.094 [Gauge] [ERROR] Failed Step: Click vào phần Danh mục
+11-04-2025 18:32:11.094 [Gauge] [ERROR] Error Message: Step Implementation not found
+11-04-2025 18:32:11.094 [Gauge] [ERROR] Specification: specs/admin/admin_category.spec:5
+11-04-2025 18:32:11.094 [Gauge] [ERROR] Stacktrace: 
+11-04-2025 18:32:11.098 [Gauge] [INFO] ## Thêm mới danh mục
+11-04-2025 18:32:11.103 [Gauge] [DEBUG] * Đăng nhập với tài khoản quản trị hợp lệ
+11-04-2025 18:32:11.946 [Gauge] [DEBUG] * Click vào phần Danh mục
+11-04-2025 18:32:11.953 [Gauge] [ERROR] Failed Step: Click vào phần Danh mục
+11-04-2025 18:32:11.953 [Gauge] [ERROR] Error Message: Step Implementation not found
+11-04-2025 18:32:11.953 [Gauge] [ERROR] Specification: specs/admin/admin_category.spec:10
+11-04-2025 18:32:11.953 [Gauge] [ERROR] Stacktrace: 
+11-04-2025 18:32:11.957 [Gauge] [INFO] ## Thêm mới danh mục - thiếu tên
+11-04-2025 18:32:11.962 [Gauge] [DEBUG] * Đăng nhập với tài khoản quản trị hợp lệ
+11-04-2025 18:32:12.700 [Gauge] [DEBUG] * Click vào phần Danh mục
+11-04-2025 18:32:12.707 [Gauge] [ERROR] Failed Step: Click vào phần Danh mục
+11-04-2025 18:32:12.707 [Gauge] [ERROR] Error Message: Step Implementation not found
+11-04-2025 18:32:12.707 [Gauge] [ERROR] Specification: specs/admin/admin_category.spec:19
+11-04-2025 18:32:12.707 [Gauge] [ERROR] Stacktrace: 
+11-04-2025 18:32:12.711 [Gauge] [INFO] ## Thêm mới danh mục - thiếu ảnh
+11-04-2025 18:32:12.715 [Gauge] [DEBUG] * Đăng nhập với tài khoản quản trị hợp lệ
+11-04-2025 18:32:13.452 [Gauge] [DEBUG] * Click vào phần Danh mục
+11-04-2025 18:32:13.459 [Gauge] [ERROR] Failed Step: Click vào phần Danh mục
+11-04-2025 18:32:13.459 [Gauge] [ERROR] Error Message: Step Implementation not found
+11-04-2025 18:32:13.459 [Gauge] [ERROR] Specification: specs/admin/admin_category.spec:28
+11-04-2025 18:32:13.459 [Gauge] [ERROR] Stacktrace: 
+11-04-2025 18:32:13.462 [Gauge] [INFO] ## Thêm mới danh mục - danh mục đã tồn tại
+11-04-2025 18:32:13.466 [Gauge] [DEBUG] * Đăng nhập với tài khoản quản trị hợp lệ
+11-04-2025 18:32:14.198 [Gauge] [DEBUG] * Click vào phần Danh mục
+11-04-2025 18:32:14.205 [Gauge] [ERROR] Failed Step: Click vào phần Danh mục
+11-04-2025 18:32:14.205 [Gauge] [ERROR] Error Message: Step Implementation not found
+11-04-2025 18:32:14.205 [Gauge] [ERROR] Specification: specs/admin/admin_category.spec:37
+11-04-2025 18:32:14.205 [Gauge] [ERROR] Stacktrace: 
+11-04-2025 18:32:14.209 [Gauge] [INFO] ## Chỉnh sửa danh mục - tên trống
+11-04-2025 18:32:14.213 [Gauge] [DEBUG] * Đăng nhập với tài khoản quản trị hợp lệ
+11-04-2025 18:32:14.930 [Gauge] [DEBUG] * Click vào phần Danh mục
+11-04-2025 18:32:14.936 [Gauge] [ERROR] Failed Step: Click vào phần Danh mục
+11-04-2025 18:32:14.936 [Gauge] [ERROR] Error Message: Step Implementation not found
+11-04-2025 18:32:14.936 [Gauge] [ERROR] Specification: specs/admin/admin_category.spec:47
+11-04-2025 18:32:14.936 [Gauge] [ERROR] Stacktrace: 
+11-04-2025 18:32:15.137 [html-report] [DEBUG] Transformed SuiteResult to report structure
+11-04-2025 18:32:15.155 [html-report] [INFO] Successfully generated html-report to => /home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/reports/html-report/index.html
+11-04-2025 18:32:15.155 [html-report] [DEBUG] Done generating HTML report using theme from /home/devtaitv/.gauge/plugins/html-report/4.3.1/themes/default
+11-04-2025 18:32:15.156 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+11-04-2025 18:32:15.158 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+11-04-2025 18:32:15.158 [Gauge] [INFO] Scenarios:	6 executed	0 passed	6 failed	0 skipped
+11-04-2025 18:32:15.159 [Gauge] [INFO] 
+Total time taken: 8.067s
+11-04-2025 18:32:31.592 [Gauge] [DEBUG] Created gauge_screenshots_dir at /home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/.gauge/screenshots
+11-04-2025 18:32:31.593 [Gauge] [DEBUG] Plugin ts is already installed.
+11-04-2025 18:32:31.593 [Gauge] [DEBUG] Plugin html-report is already installed.
+11-04-2025 18:32:31.593 [Gauge] [DEBUG] Parsing started.
+11-04-2025 18:32:31.593 [Gauge] [DEBUG] Started concepts parsing.
+11-04-2025 18:32:31.710 [Gauge] [DEBUG] 0 concepts parsing completed.
+11-04-2025 18:32:31.710 [Gauge] [DEBUG] Started specifications parsing.
+11-04-2025 18:32:31.711 [Gauge] [DEBUG] 1 specifications parsing completed.
+11-04-2025 18:32:31.711 [Gauge] [DEBUG] Parsing completed.
+11-04-2025 18:32:32.237 [Gauge] [DEBUG] Checking updates...
+11-04-2025 18:32:32.238 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=ts&p=html-report,screenshot,ts&o=linux&a=amd64
+11-04-2025 18:32:32.437 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=ts&p=html-report,screenshot,ts&o=linux&a=amd64
+11-04-2025 18:32:32.501 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/ts?l=ts&p=html-report,screenshot,ts&o=linux&a=amd64
+11-04-2025 18:32:33.688 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 46301
+11-04-2025 18:32:33.688 [Gauge] [DEBUG] Successfully made the connection with runner with port: 46301
+11-04-2025 18:32:33.688 [Gauge] [DEBUG] Validation started.
+11-04-2025 18:32:33.726 [Gauge] [DEBUG] Validation completed.
+11-04-2025 18:32:33.727 [Gauge] [DEBUG] Run started
+11-04-2025 18:32:33.727 [Gauge] [DEBUG] Starting Html Report plugin
+11-04-2025 18:32:33.736 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+11-04-2025 18:32:33.736 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 42083
+11-04-2025 18:32:33.736 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 42083
+11-04-2025 18:32:33.736 [Gauge] [DEBUG] Initialising suite data store.
+11-04-2025 18:32:34.282 [ts] [ERROR] tests/admin/admin_category.step.ts(65,91): error TS2304: Cannot find name 'HTMLInputElement'.
+11-04-2025 18:32:35.696 [Gauge] [INFO] # Chức năng quản lý danh mục
+11-04-2025 18:32:35.706 [Gauge] [INFO] ## Truy cập danh sách danh mục
+11-04-2025 18:32:35.713 [Gauge] [DEBUG] * Đăng nhập với tài khoản quản trị hợp lệ
+11-04-2025 18:32:37.682 [Gauge] [DEBUG] * Click vào phần Danh mục
+11-04-2025 18:32:37.691 [Gauge] [ERROR] Failed Step: Click vào phần Danh mục
+11-04-2025 18:32:37.691 [Gauge] [ERROR] Error Message: Step Implementation not found
+11-04-2025 18:32:37.691 [Gauge] [ERROR] Specification: specs/admin/admin_category.spec:5
+11-04-2025 18:32:37.691 [Gauge] [ERROR] Stacktrace: 
+11-04-2025 18:32:37.695 [Gauge] [INFO] ## Thêm mới danh mục
+11-04-2025 18:32:37.700 [Gauge] [DEBUG] * Đăng nhập với tài khoản quản trị hợp lệ
+11-04-2025 18:32:38.516 [Gauge] [DEBUG] * Click vào phần Danh mục
+11-04-2025 18:32:38.523 [Gauge] [ERROR] Failed Step: Click vào phần Danh mục
+11-04-2025 18:32:38.523 [Gauge] [ERROR] Error Message: Step Implementation not found
+11-04-2025 18:32:38.523 [Gauge] [ERROR] Specification: specs/admin/admin_category.spec:10
+11-04-2025 18:32:38.523 [Gauge] [ERROR] Stacktrace: 
+11-04-2025 18:32:38.527 [Gauge] [INFO] ## Thêm mới danh mục - thiếu tên
+11-04-2025 18:32:38.532 [Gauge] [DEBUG] * Đăng nhập với tài khoản quản trị hợp lệ
+11-04-2025 18:32:39.293 [Gauge] [DEBUG] * Click vào phần Danh mục
+11-04-2025 18:32:39.300 [Gauge] [ERROR] Failed Step: Click vào phần Danh mục
+11-04-2025 18:32:39.300 [Gauge] [ERROR] Error Message: Step Implementation not found
+11-04-2025 18:32:39.300 [Gauge] [ERROR] Specification: specs/admin/admin_category.spec:19
+11-04-2025 18:32:39.300 [Gauge] [ERROR] Stacktrace: 
+11-04-2025 18:32:39.304 [Gauge] [INFO] ## Thêm mới danh mục - thiếu ảnh
+11-04-2025 18:32:39.308 [Gauge] [DEBUG] * Đăng nhập với tài khoản quản trị hợp lệ
+11-04-2025 18:32:40.019 [Gauge] [DEBUG] * Click vào phần Danh mục
+11-04-2025 18:32:40.033 [Gauge] [ERROR] Failed Step: Click vào phần Danh mục
+11-04-2025 18:32:40.033 [Gauge] [ERROR] Error Message: Step Implementation not found
+11-04-2025 18:32:40.033 [Gauge] [ERROR] Specification: specs/admin/admin_category.spec:28
+11-04-2025 18:32:40.033 [Gauge] [ERROR] Stacktrace: 
+11-04-2025 18:32:40.035 [Gauge] [INFO] ## Thêm mới danh mục - danh mục đã tồn tại
+11-04-2025 18:32:40.040 [Gauge] [DEBUG] * Đăng nhập với tài khoản quản trị hợp lệ
+11-04-2025 18:32:40.763 [Gauge] [DEBUG] * Click vào phần Danh mục
+11-04-2025 18:32:40.770 [Gauge] [ERROR] Failed Step: Click vào phần Danh mục
+11-04-2025 18:32:40.771 [Gauge] [ERROR] Error Message: Step Implementation not found
+11-04-2025 18:32:40.771 [Gauge] [ERROR] Specification: specs/admin/admin_category.spec:37
+11-04-2025 18:32:40.771 [Gauge] [ERROR] Stacktrace: 
+11-04-2025 18:32:40.774 [Gauge] [INFO] ## Chỉnh sửa danh mục - tên trống
+11-04-2025 18:32:40.779 [Gauge] [DEBUG] * Đăng nhập với tài khoản quản trị hợp lệ
+11-04-2025 18:32:41.548 [Gauge] [DEBUG] * Click vào phần Danh mục
+11-04-2025 18:32:41.555 [Gauge] [ERROR] Failed Step: Click vào phần Danh mục
+11-04-2025 18:32:41.555 [Gauge] [ERROR] Error Message: Step Implementation not found
+11-04-2025 18:32:41.555 [Gauge] [ERROR] Specification: specs/admin/admin_category.spec:47
+11-04-2025 18:32:41.555 [Gauge] [ERROR] Stacktrace: 
+11-04-2025 18:32:41.776 [html-report] [DEBUG] Transformed SuiteResult to report structure
+11-04-2025 18:32:41.797 [html-report] [INFO] Successfully generated html-report to => /home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/reports/html-report/index.html
+11-04-2025 18:32:41.797 [html-report] [DEBUG] Done generating HTML report using theme from /home/devtaitv/.gauge/plugins/html-report/4.3.1/themes/default
+11-04-2025 18:32:41.797 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+11-04-2025 18:32:41.800 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+11-04-2025 18:32:41.800 [Gauge] [INFO] Scenarios:	6 executed	0 passed	6 failed	0 skipped
+11-04-2025 18:32:41.800 [Gauge] [INFO] 
+Total time taken: 8.048s
+11-04-2025 18:33:18.974 [Gauge] [DEBUG] Created gauge_screenshots_dir at /home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/.gauge/screenshots
+11-04-2025 18:33:18.974 [Gauge] [DEBUG] Plugin html-report is already installed.
+11-04-2025 18:33:18.974 [Gauge] [DEBUG] Plugin ts is already installed.
+11-04-2025 18:33:18.975 [Gauge] [DEBUG] Parsing started.
+11-04-2025 18:33:18.975 [Gauge] [DEBUG] Started concepts parsing.
+11-04-2025 18:33:19.077 [Gauge] [DEBUG] 0 concepts parsing completed.
+11-04-2025 18:33:19.077 [Gauge] [DEBUG] Started specifications parsing.
+11-04-2025 18:33:19.078 [Gauge] [DEBUG] 1 specifications parsing completed.
+11-04-2025 18:33:19.078 [Gauge] [DEBUG] Parsing completed.
+11-04-2025 18:33:19.689 [Gauge] [DEBUG] Checking updates...
+11-04-2025 18:33:19.690 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=ts&p=html-report,screenshot,ts&o=linux&a=amd64
+11-04-2025 18:33:19.885 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=ts&p=html-report,screenshot,ts&o=linux&a=amd64
+11-04-2025 18:33:19.949 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/ts?l=ts&p=html-report,screenshot,ts&o=linux&a=amd64
+11-04-2025 18:33:21.119 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 44629
+11-04-2025 18:33:21.120 [Gauge] [DEBUG] Successfully made the connection with runner with port: 44629
+11-04-2025 18:33:21.120 [Gauge] [DEBUG] Validation started.
+11-04-2025 18:33:21.155 [Gauge] [DEBUG] Validation completed.
+11-04-2025 18:33:21.156 [Gauge] [DEBUG] Run started
+11-04-2025 18:33:21.156 [Gauge] [DEBUG] Starting Html Report plugin
+11-04-2025 18:33:21.165 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 37029
+11-04-2025 18:33:21.165 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 37029
+11-04-2025 18:33:21.165 [Gauge] [DEBUG] Initialising suite data store.
+11-04-2025 18:33:23.102 [Gauge] [INFO] # Chức năng quản lý danh mục
+11-04-2025 18:33:23.111 [Gauge] [INFO] ## Truy cập danh sách danh mục
+11-04-2025 18:33:23.121 [Gauge] [DEBUG] * Đăng nhập với tài khoản quản trị hợp lệ
+11-04-2025 18:33:25.022 [Gauge] [DEBUG] * Click vào phần Danh mục
+11-04-2025 18:33:26.321 [Gauge] [DEBUG] * Kiểm tra tiêu đề 'Quản lý Danh mục' được hiển thị
+
+11-04-2025 18:33:26.346 [Gauge] [INFO] ## Thêm mới danh mục
+11-04-2025 18:33:26.351 [Gauge] [DEBUG] * Đăng nhập với tài khoản quản trị hợp lệ
+11-04-2025 18:33:27.180 [Gauge] [DEBUG] * Click vào phần Danh mục
+11-04-2025 18:33:28.053 [Gauge] [DEBUG] * Kiểm tra tiêu đề 'Quản lý Danh mục' được hiển thị
+11-04-2025 18:33:28.071 [Gauge] [DEBUG] * Click vào button Thêm mới
+11-04-2025 18:33:28.187 [Gauge] [DEBUG] * Nhập tên danh mục hợp lệ "Test Áo"
+11-04-2025 18:33:28.263 [Gauge] [DEBUG] * Chọn hình ảnh danh mục
+11-04-2025 18:33:28.459 [Gauge] [DEBUG] * Click vào button Thêm Danh Mục
+
+11-04-2025 18:33:28.603 [Gauge] [INFO] ## Thêm mới danh mục - thiếu tên
+11-04-2025 18:33:28.608 [Gauge] [DEBUG] * Đăng nhập với tài khoản quản trị hợp lệ
+11-04-2025 18:33:29.322 [Gauge] [DEBUG] * Click vào phần Danh mục
+11-04-2025 18:33:30.060 [Gauge] [DEBUG] * Kiểm tra tiêu đề 'Quản lý Danh mục' được hiển thị
+11-04-2025 18:33:30.077 [Gauge] [DEBUG] * Click vào button Thêm mới
+11-04-2025 18:33:30.190 [Gauge] [DEBUG] * Chọn hình ảnh danh mục
+11-04-2025 18:33:30.368 [Gauge] [DEBUG] * Click vào button Thêm Danh Mục
+11-04-2025 18:33:30.490 [Gauge] [DEBUG] * Kiểm tra thông báo lỗi thiếu tên danh mục
+
+11-04-2025 18:33:30.990 [Gauge] [ERROR] Failed Step: Kiểm tra thông báo lỗi thiếu tên danh mục
+11-04-2025 18:33:30.990 [Gauge] [ERROR] Error Message: expect(received).toContain(expected) // indexOf
+
+Matcher error: received value must not be null nor undefined
+
+Received has value: null
+11-04-2025 18:33:30.990 [Gauge] [ERROR] Specification: specs/admin/admin_category.spec:24
+11-04-2025 18:33:30.990 [Gauge] [ERROR] Stacktrace: 
+Error: expect(received).toContain(expected) // indexOf
+
+Matcher error: received value must not be null nor undefined
+
+Received has value: null
+    at Proxy.<anonymous> (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/node_modules/playwright/lib/matchers/expect.js:254:37)
+    at CategorySteps.<anonymous> (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/admin/admin_category.step.ts:66:23)
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/admin/admin_category.step.ts:14:58)
+11-04-2025 18:33:30.993 [Gauge] [INFO] ## Thêm mới danh mục - thiếu ảnh
+11-04-2025 18:33:30.997 [Gauge] [DEBUG] * Đăng nhập với tài khoản quản trị hợp lệ
+11-04-2025 18:33:31.720 [Gauge] [DEBUG] * Click vào phần Danh mục
+11-04-2025 18:33:32.467 [Gauge] [DEBUG] * Kiểm tra tiêu đề 'Quản lý Danh mục' được hiển thị
+11-04-2025 18:33:32.484 [Gauge] [DEBUG] * Click vào button Thêm mới
+11-04-2025 18:33:32.608 [Gauge] [DEBUG] * Nhập tên danh mục hợp lệ "Test Áo"
+11-04-2025 18:33:32.681 [Gauge] [DEBUG] * Click vào button Thêm Danh Mục
+11-04-2025 18:33:32.798 [Gauge] [DEBUG] * Kiểm tra thông báo lỗi thiếu hình ảnh
+
+11-04-2025 18:33:32.815 [Gauge] [INFO] ## Thêm mới danh mục - danh mục đã tồn tại
+11-04-2025 18:33:32.820 [Gauge] [DEBUG] * Đăng nhập với tài khoản quản trị hợp lệ
+11-04-2025 18:33:33.540 [Gauge] [DEBUG] * Click vào phần Danh mục
+11-04-2025 18:33:34.223 [Gauge] [DEBUG] * Kiểm tra tiêu đề 'Quản lý Danh mục' được hiển thị
+11-04-2025 18:33:34.238 [Gauge] [DEBUG] * Click vào button Thêm mới
+11-04-2025 18:33:34.354 [Gauge] [DEBUG] * Nhập tên danh mục hợp lệ "Test Áo"
+11-04-2025 18:33:34.426 [Gauge] [DEBUG] * Chọn hình ảnh danh mục
+11-04-2025 18:33:34.596 [Gauge] [DEBUG] * Click vào button Thêm Danh Mục
+11-04-2025 18:33:34.704 [Gauge] [DEBUG] * Kiểm tra thông báo lỗi danh mục trùng tên
+
+11-04-2025 18:33:35.195 [Gauge] [ERROR] Failed Step: Kiểm tra thông báo lỗi danh mục trùng tên
+11-04-2025 18:33:35.195 [Gauge] [ERROR] Error Message: expect(received).toBeTruthy()
+
+Received: false
+11-04-2025 18:33:35.195 [Gauge] [ERROR] Specification: specs/admin/admin_category.spec:43
+11-04-2025 18:33:35.195 [Gauge] [ERROR] Stacktrace: 
+Error: expect(received).toBeTruthy()
+
+Received: false
+    at Proxy.<anonymous> (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/node_modules/playwright/lib/matchers/expect.js:254:37)
+    at CategorySteps.<anonymous> (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/admin/admin_category.step.ts:80:30)
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/admin/admin_category.step.ts:14:58)
+11-04-2025 18:33:35.197 [Gauge] [INFO] ## Chỉnh sửa danh mục - tên trống
+11-04-2025 18:33:35.200 [Gauge] [DEBUG] * Đăng nhập với tài khoản quản trị hợp lệ
+11-04-2025 18:33:35.917 [Gauge] [DEBUG] * Click vào phần Danh mục
+11-04-2025 18:33:36.648 [Gauge] [DEBUG] * Kiểm tra tiêu đề 'Quản lý Danh mục' được hiển thị
+11-04-2025 18:33:36.665 [Gauge] [DEBUG] * Click vào icon chỉnh sửa
+11-04-2025 18:33:37.579 [Gauge] [DEBUG] * Xóa tên danh mục hiện tại và để trống
+11-04-2025 18:33:37.661 [Gauge] [DEBUG] * Click vào button Cập nhật Danh Mục
+11-04-2025 18:33:37.770 [Gauge] [DEBUG] * Kiểm tra thông báo lỗi thiếu tên danh mục
+11-04-2025 18:33:38.220 [Gauge] [ERROR] Failed Step: Kiểm tra thông báo lỗi thiếu tên danh mục
+11-04-2025 18:33:38.220 [Gauge] [ERROR] Error Message: expect(received).toContain(expected) // indexOf
+
+Matcher error: received value must not be null nor undefined
+
+Received has value: null
+11-04-2025 18:33:38.221 [Gauge] [ERROR] Specification: specs/admin/admin_category.spec:52
+11-04-2025 18:33:38.221 [Gauge] [ERROR] Stacktrace: 
+Error: expect(received).toContain(expected) // indexOf
+
+Matcher error: received value must not be null nor undefined
+
+Received has value: null
+    at Proxy.<anonymous> (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/node_modules/playwright/lib/matchers/expect.js:254:37)
+    at CategorySteps.<anonymous> (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/admin/admin_category.step.ts:66:23)
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/admin/admin_category.step.ts:14:58)
+11-04-2025 18:33:38.421 [html-report] [DEBUG] Transformed SuiteResult to report structure
+11-04-2025 18:33:38.439 [html-report] [INFO] Successfully generated html-report to => /home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/reports/html-report/index.html
+11-04-2025 18:33:38.439 [html-report] [DEBUG] Done generating HTML report using theme from /home/devtaitv/.gauge/plugins/html-report/4.3.1/themes/default
+11-04-2025 18:33:38.439 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+11-04-2025 18:33:38.442 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+11-04-2025 18:33:38.442 [Gauge] [INFO] Scenarios:	6 executed	3 passed	3 failed	0 skipped
+11-04-2025 18:33:38.442 [Gauge] [INFO] 
+Total time taken: 17.264s
+11-04-2025 18:37:59.065 [Gauge] [DEBUG] Created gauge_screenshots_dir at /home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/.gauge/screenshots
+11-04-2025 18:37:59.065 [Gauge] [DEBUG] Plugin html-report is already installed.
+11-04-2025 18:37:59.066 [Gauge] [DEBUG] Plugin ts is already installed.
+11-04-2025 18:37:59.066 [Gauge] [DEBUG] Parsing started.
+11-04-2025 18:37:59.066 [Gauge] [DEBUG] Started concepts parsing.
+11-04-2025 18:37:59.164 [Gauge] [DEBUG] 0 concepts parsing completed.
+11-04-2025 18:37:59.164 [Gauge] [DEBUG] Started specifications parsing.
+11-04-2025 18:37:59.164 [Gauge] [DEBUG] 1 specifications parsing completed.
+11-04-2025 18:37:59.164 [Gauge] [DEBUG] Parsing completed.
+11-04-2025 18:38:00.039 [Gauge] [DEBUG] Checking updates...
+11-04-2025 18:38:00.040 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=ts&p=html-report,screenshot,ts&o=linux&a=amd64
+11-04-2025 18:38:00.292 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=ts&p=html-report,screenshot,ts&o=linux&a=amd64
+11-04-2025 18:38:00.360 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/ts?l=ts&p=html-report,screenshot,ts&o=linux&a=amd64
+11-04-2025 18:38:01.383 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 41611
+11-04-2025 18:38:01.383 [Gauge] [DEBUG] Successfully made the connection with runner with port: 41611
+11-04-2025 18:38:01.383 [Gauge] [DEBUG] Validation started.
+11-04-2025 18:38:01.415 [Gauge] [DEBUG] Validation completed.
+11-04-2025 18:38:01.416 [Gauge] [DEBUG] Run started
+11-04-2025 18:38:01.416 [Gauge] [DEBUG] Starting Html Report plugin
+11-04-2025 18:38:01.424 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+11-04-2025 18:38:01.424 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 39147
+11-04-2025 18:38:01.425 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 39147
+11-04-2025 18:38:01.425 [Gauge] [DEBUG] Initialising suite data store.
+11-04-2025 18:38:04.192 [ts] [ERROR] tests/admin/admin_category.step.ts(68,41): error TS2589: Type instantiation is excessively deep and possibly infinite.
+11-04-2025 18:38:04.193 [ts] [ERROR] tests/admin/admin_category.step.ts(68,46): error TS2769: No overload matches this call.
+11-04-2025 18:38:04.193 [ts] [ERROR] Overload 1 of 2, '(pageFunction: PageFunction<HTMLInputElement, string>, arg: HTMLInputElement): Promise<string>', gave the following error.
+11-04-2025 18:38:04.193 [ts] [ERROR] Argument of type 'ElementHandle<SVGElement | HTMLElement>' is not assignable to parameter of type 'HTMLInputElement'.
+11-04-2025 18:38:04.193 [ts] [ERROR] Type 'ElementHandle<SVGElement | HTMLElement>' is missing the following properties from type 'HTMLInputElement': accept, align, alt, autocomplete, and 354 more.
+11-04-2025 18:38:04.193 [ts] [ERROR] Overload 2 of 2, '(pageFunction: PageFunction<void, string>, arg?: any): Promise<string>', gave the following error.
+11-04-2025 18:38:04.193 [ts] [ERROR] Argument of type '(input: HTMLInputElement) => string' is not assignable to parameter of type 'PageFunction<void, string>'.
+11-04-2025 18:38:04.193 [ts] [ERROR] Type '(input: HTMLInputElement) => string' is not assignable to type '(arg: void) => string | Promise<string>'.
+11-04-2025 18:38:04.193 [ts] [ERROR] Types of parameters 'input' and 'arg' are incompatible.
+11-04-2025 18:38:04.193 [ts] [ERROR] Type 'void' is not assignable to type 'HTMLInputElement'.
+11-04-2025 18:38:04.193 [ts] [ERROR] tests/admin/admin_category.step.ts(75,58): error TS2339: Property 'errorMessage' does not exist on type '{ menuCategory: string; heading: string; addNewButton: string; updateNewButton: string; categoryNameInput: string; fileInput: string; iconUpdate: string; iconDelete: string; submitButton: string; nameValidationMessage: string; imageErrorText: string; duplicateErrorText: string; }'.
+11-04-2025 18:38:04.193 [ts] [ERROR] tests/admin/admin_category.step.ts(77,42): error TS2769: No overload matches this call.
+11-04-2025 18:38:04.193 [ts] [ERROR] Overload 1 of 2, '(pageFunction: PageFunction<HTMLElement, string>, arg: HTMLElement): Promise<string>', gave the following error.
+11-04-2025 18:38:04.193 [ts] [ERROR] Argument of type 'ElementHandleForTag<any>' is not assignable to parameter of type 'HTMLElement'.
+11-04-2025 18:38:04.193 [ts] [ERROR] Type 'ElementHandle<any>' is missing the following properties from type 'HTMLElement': accessKey, accessKeyLabel, autocapitalize, dir, and 296 more.
+11-04-2025 18:38:04.193 [ts] [ERROR] Overload 2 of 2, '(pageFunction: PageFunction<void, string>, arg?: any): Promise<string>', gave the following error.
+11-04-2025 18:38:04.193 [ts] [ERROR] Argument of type '(el: HTMLElement) => string' is not assignable to parameter of type 'PageFunction<void, string>'.
+11-04-2025 18:38:04.193 [ts] [ERROR] Type '(el: HTMLElement) => string' is not assignable to type '(arg: void) => string | Promise<string>'.
+11-04-2025 18:38:04.193 [ts] [ERROR] Types of parameters 'el' and 'arg' are incompatible.
+11-04-2025 18:38:04.193 [ts] [ERROR] Type 'void' is not assignable to type 'HTMLElement'.
+11-04-2025 18:38:05.663 [Gauge] [INFO] # Chức năng quản lý danh mục
+11-04-2025 18:38:05.670 [Gauge] [INFO] ## Truy cập danh sách danh mục
+11-04-2025 18:38:05.681 [Gauge] [DEBUG] * Đăng nhập với tài khoản quản trị hợp lệ
+11-04-2025 18:38:07.612 [Gauge] [DEBUG] * Click vào phần Danh mục
+11-04-2025 18:38:07.621 [Gauge] [ERROR] Failed Step: Click vào phần Danh mục
+11-04-2025 18:38:07.621 [Gauge] [ERROR] Error Message: Step Implementation not found
+11-04-2025 18:38:07.621 [Gauge] [ERROR] Specification: specs/admin/admin_category.spec:5
+11-04-2025 18:38:07.621 [Gauge] [ERROR] Stacktrace: 
+11-04-2025 18:38:07.625 [Gauge] [INFO] ## Thêm mới danh mục
+11-04-2025 18:38:07.631 [Gauge] [DEBUG] * Đăng nhập với tài khoản quản trị hợp lệ
+11-04-2025 18:38:08.495 [Gauge] [DEBUG] * Click vào phần Danh mục
+11-04-2025 18:38:08.503 [Gauge] [ERROR] Failed Step: Click vào phần Danh mục
+11-04-2025 18:38:08.503 [Gauge] [ERROR] Error Message: Step Implementation not found
+11-04-2025 18:38:08.503 [Gauge] [ERROR] Specification: specs/admin/admin_category.spec:10
+11-04-2025 18:38:08.503 [Gauge] [ERROR] Stacktrace: 
+11-04-2025 18:38:08.507 [Gauge] [INFO] ## Thêm mới danh mục - thiếu tên
+11-04-2025 18:38:08.511 [Gauge] [DEBUG] * Đăng nhập với tài khoản quản trị hợp lệ
+11-04-2025 18:38:09.515 [Gauge] [DEBUG] * Click vào phần Danh mục
+11-04-2025 18:38:09.530 [Gauge] [ERROR] Failed Step: Click vào phần Danh mục
+11-04-2025 18:38:09.530 [Gauge] [ERROR] Error Message: Step Implementation not found
+11-04-2025 18:38:09.530 [Gauge] [ERROR] Specification: specs/admin/admin_category.spec:19
+11-04-2025 18:38:09.530 [Gauge] [ERROR] Stacktrace: 
+11-04-2025 18:38:09.532 [Gauge] [INFO] ## Thêm mới danh mục - thiếu ảnh
+11-04-2025 18:38:09.537 [Gauge] [DEBUG] * Đăng nhập với tài khoản quản trị hợp lệ
+11-04-2025 18:38:10.292 [Gauge] [DEBUG] * Click vào phần Danh mục
+11-04-2025 18:38:10.299 [Gauge] [ERROR] Failed Step: Click vào phần Danh mục
+11-04-2025 18:38:10.299 [Gauge] [ERROR] Error Message: Step Implementation not found
+11-04-2025 18:38:10.299 [Gauge] [ERROR] Specification: specs/admin/admin_category.spec:28
+11-04-2025 18:38:10.299 [Gauge] [ERROR] Stacktrace: 
+11-04-2025 18:38:10.301 [Gauge] [INFO] ## Thêm mới danh mục - danh mục đã tồn tại
+11-04-2025 18:38:10.308 [Gauge] [DEBUG] * Đăng nhập với tài khoản quản trị hợp lệ
+11-04-2025 18:38:11.035 [Gauge] [DEBUG] * Click vào phần Danh mục
+11-04-2025 18:38:11.042 [Gauge] [ERROR] Failed Step: Click vào phần Danh mục
+11-04-2025 18:38:11.042 [Gauge] [ERROR] Error Message: Step Implementation not found
+11-04-2025 18:38:11.042 [Gauge] [ERROR] Specification: specs/admin/admin_category.spec:37
+11-04-2025 18:38:11.042 [Gauge] [ERROR] Stacktrace: 
+11-04-2025 18:38:11.046 [Gauge] [INFO] ## Chỉnh sửa danh mục - tên trống
+11-04-2025 18:38:11.050 [Gauge] [DEBUG] * Đăng nhập với tài khoản quản trị hợp lệ
+11-04-2025 18:38:11.784 [Gauge] [DEBUG] * Click vào phần Danh mục
+11-04-2025 18:38:11.798 [Gauge] [ERROR] Failed Step: Click vào phần Danh mục
+11-04-2025 18:38:11.798 [Gauge] [ERROR] Error Message: Step Implementation not found
+11-04-2025 18:38:11.798 [Gauge] [ERROR] Specification: specs/admin/admin_category.spec:47
+11-04-2025 18:38:11.798 [Gauge] [ERROR] Stacktrace: 
+11-04-2025 18:38:11.969 [html-report] [DEBUG] Transformed SuiteResult to report structure
+11-04-2025 18:38:11.988 [html-report] [INFO] Successfully generated html-report to => /home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/reports/html-report/index.html
+11-04-2025 18:38:11.988 [html-report] [DEBUG] Done generating HTML report using theme from /home/devtaitv/.gauge/plugins/html-report/4.3.1/themes/default
+11-04-2025 18:38:11.988 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+11-04-2025 18:38:11.991 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+11-04-2025 18:38:11.991 [Gauge] [INFO] Scenarios:	6 executed	0 passed	6 failed	0 skipped
+11-04-2025 18:38:11.991 [Gauge] [INFO] 
+Total time taken: 10.552s
+11-04-2025 18:38:53.602 [Gauge] [DEBUG] Created gauge_screenshots_dir at /home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/.gauge/screenshots
+11-04-2025 18:38:53.603 [Gauge] [DEBUG] Plugin ts is already installed.
+11-04-2025 18:38:53.603 [Gauge] [DEBUG] Plugin html-report is already installed.
+11-04-2025 18:38:53.603 [Gauge] [DEBUG] Parsing started.
+11-04-2025 18:38:53.603 [Gauge] [DEBUG] Started concepts parsing.
+11-04-2025 18:38:53.716 [Gauge] [DEBUG] 0 concepts parsing completed.
+11-04-2025 18:38:53.716 [Gauge] [DEBUG] Started specifications parsing.
+11-04-2025 18:38:53.718 [Gauge] [DEBUG] 1 specifications parsing completed.
+11-04-2025 18:38:53.718 [Gauge] [DEBUG] Parsing completed.
+11-04-2025 18:38:54.270 [Gauge] [DEBUG] Checking updates...
+11-04-2025 18:38:54.271 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=ts&p=html-report,screenshot,ts&o=linux&a=amd64
+11-04-2025 18:38:54.461 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=ts&p=html-report,screenshot,ts&o=linux&a=amd64
+11-04-2025 18:38:54.522 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/ts?l=ts&p=html-report,screenshot,ts&o=linux&a=amd64
+11-04-2025 18:38:55.957 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 45177
+11-04-2025 18:38:55.957 [Gauge] [DEBUG] Successfully made the connection with runner with port: 45177
+11-04-2025 18:38:55.957 [Gauge] [DEBUG] Validation started.
+11-04-2025 18:38:55.988 [Gauge] [DEBUG] Validation completed.
+11-04-2025 18:38:55.988 [Gauge] [DEBUG] Run started
+11-04-2025 18:38:55.989 [Gauge] [DEBUG] Starting Html Report plugin
+11-04-2025 18:38:55.998 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 33645
+11-04-2025 18:38:55.998 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 33645
+11-04-2025 18:38:55.998 [Gauge] [DEBUG] Initialising suite data store.
+11-04-2025 18:38:58.611 [ts] [ERROR] tests/admin/admin_category.step.ts(65,58): error TS2339: Property 'errorMessage' does not exist on type '{ menuCategory: string; heading: string; addNewButton: string; updateNewButton: string; categoryNameInput: string; fileInput: string; iconUpdate: string; iconDelete: string; submitButton: string; nameValidationMessage: string; imageErrorText: string; duplicateErrorText: string; }'.
+11-04-2025 18:38:58.611 [ts] [ERROR] tests/admin/admin_category.step.ts(67,37): error TS2589: Type instantiation is excessively deep and possibly infinite.
+11-04-2025 18:38:58.612 [ts] [ERROR] tests/admin/admin_category.step.ts(67,42): error TS2769: No overload matches this call.
+11-04-2025 18:38:58.612 [ts] [ERROR] Overload 1 of 2, '(pageFunction: PageFunction<HTMLElement, string>, arg: HTMLElement): Promise<string>', gave the following error.
+11-04-2025 18:38:58.612 [ts] [ERROR] Argument of type 'ElementHandleForTag<any>' is not assignable to parameter of type 'HTMLElement'.
+11-04-2025 18:38:58.612 [ts] [ERROR] Type 'ElementHandle<any>' is missing the following properties from type 'HTMLElement': accessKey, accessKeyLabel, autocapitalize, dir, and 296 more.
+11-04-2025 18:38:58.612 [ts] [ERROR] Overload 2 of 2, '(pageFunction: PageFunction<void, string>, arg?: any): Promise<string>', gave the following error.
+11-04-2025 18:38:58.612 [ts] [ERROR] Argument of type '(el: HTMLElement) => string' is not assignable to parameter of type 'PageFunction<void, string>'.
+11-04-2025 18:38:58.612 [ts] [ERROR] Type '(el: HTMLElement) => string' is not assignable to type '(arg: void) => string | Promise<string>'.
+11-04-2025 18:38:58.612 [ts] [ERROR] Types of parameters 'el' and 'arg' are incompatible.
+11-04-2025 18:38:58.612 [ts] [ERROR] Type 'void' is not assignable to type 'HTMLElement'.
+11-04-2025 18:39:00.032 [Gauge] [INFO] # Chức năng quản lý danh mục
+11-04-2025 18:39:00.042 [Gauge] [INFO] ## Truy cập danh sách danh mục
+11-04-2025 18:39:00.047 [Gauge] [DEBUG] * Đăng nhập với tài khoản quản trị hợp lệ
+11-04-2025 18:39:02.001 [Gauge] [DEBUG] * Click vào phần Danh mục
+11-04-2025 18:39:02.010 [Gauge] [ERROR] Failed Step: Click vào phần Danh mục
+11-04-2025 18:39:02.010 [Gauge] [ERROR] Error Message: Step Implementation not found
+11-04-2025 18:39:02.010 [Gauge] [ERROR] Specification: specs/admin/admin_category.spec:5
+11-04-2025 18:39:02.010 [Gauge] [ERROR] Stacktrace: 
+11-04-2025 18:39:02.014 [Gauge] [INFO] ## Thêm mới danh mục
+11-04-2025 18:39:02.019 [Gauge] [DEBUG] * Đăng nhập với tài khoản quản trị hợp lệ
+11-04-2025 18:39:02.847 [Gauge] [DEBUG] * Click vào phần Danh mục
+11-04-2025 18:39:02.855 [Gauge] [ERROR] Failed Step: Click vào phần Danh mục
+11-04-2025 18:39:02.855 [Gauge] [ERROR] Error Message: Step Implementation not found
+11-04-2025 18:39:02.856 [Gauge] [ERROR] Specification: specs/admin/admin_category.spec:10
+11-04-2025 18:39:02.856 [Gauge] [ERROR] Stacktrace: 
+11-04-2025 18:39:02.858 [Gauge] [INFO] ## Thêm mới danh mục - thiếu tên
+11-04-2025 18:39:02.862 [Gauge] [DEBUG] * Đăng nhập với tài khoản quản trị hợp lệ
+11-04-2025 18:39:03.606 [Gauge] [DEBUG] * Click vào phần Danh mục
+11-04-2025 18:39:03.612 [Gauge] [ERROR] Failed Step: Click vào phần Danh mục
+11-04-2025 18:39:03.613 [Gauge] [ERROR] Error Message: Step Implementation not found
+11-04-2025 18:39:03.613 [Gauge] [ERROR] Specification: specs/admin/admin_category.spec:19
+11-04-2025 18:39:03.613 [Gauge] [ERROR] Stacktrace: 
+11-04-2025 18:39:03.615 [Gauge] [INFO] ## Thêm mới danh mục - thiếu ảnh
+11-04-2025 18:39:03.621 [Gauge] [DEBUG] * Đăng nhập với tài khoản quản trị hợp lệ
+11-04-2025 18:39:04.354 [Gauge] [DEBUG] * Click vào phần Danh mục
+11-04-2025 18:39:04.362 [Gauge] [ERROR] Failed Step: Click vào phần Danh mục
+11-04-2025 18:39:04.362 [Gauge] [ERROR] Error Message: Step Implementation not found
+11-04-2025 18:39:04.362 [Gauge] [ERROR] Specification: specs/admin/admin_category.spec:28
+11-04-2025 18:39:04.362 [Gauge] [ERROR] Stacktrace: 
+11-04-2025 18:39:04.367 [Gauge] [INFO] ## Thêm mới danh mục - danh mục đã tồn tại
+11-04-2025 18:39:04.372 [Gauge] [DEBUG] * Đăng nhập với tài khoản quản trị hợp lệ
+11-04-2025 18:39:05.109 [Gauge] [DEBUG] * Click vào phần Danh mục
+11-04-2025 18:39:05.119 [Gauge] [ERROR] Failed Step: Click vào phần Danh mục
+11-04-2025 18:39:05.119 [Gauge] [ERROR] Error Message: Step Implementation not found
+11-04-2025 18:39:05.119 [Gauge] [ERROR] Specification: specs/admin/admin_category.spec:37
+11-04-2025 18:39:05.119 [Gauge] [ERROR] Stacktrace: 
+11-04-2025 18:39:05.121 [Gauge] [INFO] ## Chỉnh sửa danh mục - tên trống
+11-04-2025 18:39:05.126 [Gauge] [DEBUG] * Đăng nhập với tài khoản quản trị hợp lệ
+11-04-2025 18:39:06.116 [Gauge] [DEBUG] * Click vào phần Danh mục
+11-04-2025 18:39:06.122 [Gauge] [ERROR] Failed Step: Click vào phần Danh mục
+11-04-2025 18:39:06.122 [Gauge] [ERROR] Error Message: Step Implementation not found
+11-04-2025 18:39:06.122 [Gauge] [ERROR] Specification: specs/admin/admin_category.spec:47
+11-04-2025 18:39:06.122 [Gauge] [ERROR] Stacktrace: 
+11-04-2025 18:39:06.291 [html-report] [DEBUG] Transformed SuiteResult to report structure
+11-04-2025 18:39:06.317 [html-report] [INFO] Successfully generated html-report to => /home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/reports/html-report/index.html
+11-04-2025 18:39:06.317 [html-report] [DEBUG] Done generating HTML report using theme from /home/devtaitv/.gauge/plugins/html-report/4.3.1/themes/default
+11-04-2025 18:39:06.317 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+11-04-2025 18:39:06.320 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+11-04-2025 18:39:06.321 [Gauge] [INFO] Scenarios:	6 executed	0 passed	6 failed	0 skipped
+11-04-2025 18:39:06.321 [Gauge] [INFO] 
+Total time taken: 10.301s
+11-04-2025 18:49:52.624 [Gauge] [DEBUG] Created gauge_screenshots_dir at /home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/.gauge/screenshots
+11-04-2025 18:49:52.624 [Gauge] [DEBUG] Plugin ts is already installed.
+11-04-2025 18:49:52.625 [Gauge] [DEBUG] Plugin html-report is already installed.
+11-04-2025 18:49:52.625 [Gauge] [DEBUG] Parsing started.
+11-04-2025 18:49:52.625 [Gauge] [DEBUG] Started concepts parsing.
+11-04-2025 18:49:52.721 [Gauge] [DEBUG] 0 concepts parsing completed.
+11-04-2025 18:49:52.721 [Gauge] [DEBUG] Started specifications parsing.
+11-04-2025 18:49:52.722 [Gauge] [DEBUG] 1 specifications parsing completed.
+11-04-2025 18:49:52.722 [Gauge] [DEBUG] Parsing completed.
+11-04-2025 18:49:53.609 [Gauge] [DEBUG] Checking updates...
+11-04-2025 18:49:53.609 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=ts&p=html-report,screenshot,ts&o=linux&a=amd64
+11-04-2025 18:49:53.925 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=ts&p=html-report,screenshot,ts&o=linux&a=amd64
+11-04-2025 18:49:53.989 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/ts?l=ts&p=html-report,screenshot,ts&o=linux&a=amd64
+11-04-2025 18:49:54.953 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 46445
+11-04-2025 18:49:54.954 [Gauge] [DEBUG] Successfully made the connection with runner with port: 46445
+11-04-2025 18:49:54.954 [Gauge] [DEBUG] Validation started.
+11-04-2025 18:49:54.986 [Gauge] [DEBUG] Validation completed.
+11-04-2025 18:49:54.986 [Gauge] [DEBUG] Run started
+11-04-2025 18:49:54.986 [Gauge] [DEBUG] Starting Html Report plugin
+11-04-2025 18:49:54.997 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+11-04-2025 18:49:54.997 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 34655
+11-04-2025 18:49:54.997 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 34655
+11-04-2025 18:49:54.997 [Gauge] [DEBUG] Initialising suite data store.
+11-04-2025 18:49:57.009 [Gauge] [INFO] # Chức năng quản lý danh mục
+11-04-2025 18:49:57.016 [Gauge] [INFO] ## Truy cập danh sách danh mục
+11-04-2025 18:49:57.026 [Gauge] [DEBUG] * Đăng nhập với tài khoản quản trị hợp lệ
+11-04-2025 18:49:59.027 [Gauge] [DEBUG] * Click vào phần Danh mục
+11-04-2025 18:50:00.712 [Gauge] [DEBUG] * Kiểm tra tiêu đề 'Quản lý Danh mục' được hiển thị
+
+11-04-2025 18:50:00.738 [Gauge] [INFO] ## Thêm mới danh mục
+11-04-2025 18:50:00.743 [Gauge] [DEBUG] * Đăng nhập với tài khoản quản trị hợp lệ
+11-04-2025 18:50:01.550 [Gauge] [DEBUG] * Click vào phần Danh mục
+11-04-2025 18:50:02.186 [Gauge] [DEBUG] * Kiểm tra tiêu đề 'Quản lý Danh mục' được hiển thị
+11-04-2025 18:50:02.202 [Gauge] [DEBUG] * Click vào button Thêm mới
+11-04-2025 18:50:02.321 [Gauge] [DEBUG] * Nhập tên danh mục hợp lệ "Test Áo"
+11-04-2025 18:50:02.400 [Gauge] [DEBUG] * Chọn hình ảnh danh mục
+11-04-2025 18:50:02.602 [Gauge] [DEBUG] * Click vào button Thêm Danh Mục
+
+11-04-2025 18:50:02.722 [Gauge] [INFO] ## Thêm mới danh mục - thiếu tên
+11-04-2025 18:50:02.726 [Gauge] [DEBUG] * Đăng nhập với tài khoản quản trị hợp lệ
+11-04-2025 18:50:03.444 [Gauge] [DEBUG] * Click vào phần Danh mục
+11-04-2025 18:50:04.238 [Gauge] [DEBUG] * Kiểm tra tiêu đề 'Quản lý Danh mục' được hiển thị
+11-04-2025 18:50:04.253 [Gauge] [DEBUG] * Click vào button Thêm mới
+11-04-2025 18:50:04.368 [Gauge] [DEBUG] * Chọn hình ảnh danh mục
+11-04-2025 18:50:04.547 [Gauge] [DEBUG] * Click vào button Thêm Danh Mục
+11-04-2025 18:50:04.663 [Gauge] [DEBUG] * Kiểm tra thông báo lỗi thiếu tên danh mục
+
+11-04-2025 18:50:04.702 [Gauge] [INFO] ## Thêm mới danh mục - thiếu ảnh
+11-04-2025 18:50:04.706 [Gauge] [DEBUG] * Đăng nhập với tài khoản quản trị hợp lệ
+11-04-2025 18:50:05.416 [Gauge] [DEBUG] * Click vào phần Danh mục
+11-04-2025 18:50:06.161 [Gauge] [DEBUG] * Kiểm tra tiêu đề 'Quản lý Danh mục' được hiển thị
+11-04-2025 18:50:06.178 [Gauge] [DEBUG] * Click vào button Thêm mới
+11-04-2025 18:50:06.301 [Gauge] [DEBUG] * Nhập tên danh mục hợp lệ "Test Áo"
+11-04-2025 18:50:06.374 [Gauge] [DEBUG] * Click vào button Thêm Danh Mục
+11-04-2025 18:50:06.489 [Gauge] [DEBUG] * Kiểm tra thông báo lỗi thiếu hình ảnh
+
+11-04-2025 18:50:06.520 [Gauge] [INFO] ## Thêm mới danh mục - danh mục đã tồn tại
+11-04-2025 18:50:06.524 [Gauge] [DEBUG] * Đăng nhập với tài khoản quản trị hợp lệ
+11-04-2025 18:50:07.239 [Gauge] [DEBUG] * Click vào phần Danh mục
+11-04-2025 18:50:08.024 [Gauge] [DEBUG] * Kiểm tra tiêu đề 'Quản lý Danh mục' được hiển thị
+11-04-2025 18:50:08.041 [Gauge] [DEBUG] * Click vào button Thêm mới
+11-04-2025 18:50:08.151 [Gauge] [DEBUG] * Nhập tên danh mục hợp lệ "Test Áo"
+11-04-2025 18:50:08.225 [Gauge] [DEBUG] * Chọn hình ảnh danh mục
+11-04-2025 18:50:08.413 [Gauge] [DEBUG] * Click vào button Thêm Danh Mục
+11-04-2025 18:50:08.547 [Gauge] [DEBUG] * Kiểm tra thông báo lỗi danh mục trùng tên
+
+11-04-2025 18:50:08.781 [Gauge] [INFO] ## Chỉnh sửa danh mục - tên trống
+11-04-2025 18:50:08.785 [Gauge] [DEBUG] * Đăng nhập với tài khoản quản trị hợp lệ
+11-04-2025 18:50:09.514 [Gauge] [DEBUG] * Click vào phần Danh mục
+11-04-2025 18:50:10.252 [Gauge] [DEBUG] * Kiểm tra tiêu đề 'Quản lý Danh mục' được hiển thị
+11-04-2025 18:50:10.269 [Gauge] [DEBUG] * Click vào icon chỉnh sửa
+11-04-2025 18:50:11.186 [Gauge] [DEBUG] * Xóa tên danh mục hiện tại và để trống
+11-04-2025 18:50:11.263 [Gauge] [DEBUG] * Click vào button Cập nhật Danh Mục
+11-04-2025 18:50:11.379 [Gauge] [DEBUG] * Kiểm tra thông báo lỗi thiếu tên danh mục
+11-04-2025 18:50:11.593 [html-report] [DEBUG] Transformed SuiteResult to report structure
+11-04-2025 18:50:11.608 [html-report] [INFO] Successfully generated html-report to => /home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/reports/html-report/index.html
+11-04-2025 18:50:11.608 [html-report] [DEBUG] Done generating HTML report using theme from /home/devtaitv/.gauge/plugins/html-report/4.3.1/themes/default
+11-04-2025 18:50:11.609 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+11-04-2025 18:50:11.611 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+11-04-2025 18:50:11.611 [Gauge] [INFO] Scenarios:	6 executed	6 passed	0 failed	0 skipped
+11-04-2025 18:50:11.611 [Gauge] [INFO] 
+Total time taken: 16.605s
+11-04-2025 18:50:26.215 [Gauge] [DEBUG] Created gauge_screenshots_dir at /home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/.gauge/screenshots
+11-04-2025 18:50:26.215 [Gauge] [DEBUG] Plugin ts is already installed.
+11-04-2025 18:50:26.216 [Gauge] [DEBUG] Plugin html-report is already installed.
+11-04-2025 18:50:26.216 [Gauge] [DEBUG] Parsing started.
+11-04-2025 18:50:26.216 [Gauge] [DEBUG] Started concepts parsing.
+11-04-2025 18:50:26.315 [Gauge] [DEBUG] 0 concepts parsing completed.
+11-04-2025 18:50:26.315 [Gauge] [DEBUG] Started specifications parsing.
+11-04-2025 18:50:26.316 [Gauge] [DEBUG] 1 specifications parsing completed.
+11-04-2025 18:50:26.316 [Gauge] [DEBUG] Parsing completed.
+11-04-2025 18:50:26.906 [Gauge] [DEBUG] Checking updates...
+11-04-2025 18:50:26.907 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=ts&p=html-report,screenshot,ts&o=linux&a=amd64
+11-04-2025 18:50:27.104 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=ts&p=html-report,screenshot,ts&o=linux&a=amd64
+11-04-2025 18:50:27.166 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/ts?l=ts&p=html-report,screenshot,ts&o=linux&a=amd64
+11-04-2025 18:50:28.520 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 41353
+11-04-2025 18:50:28.520 [Gauge] [DEBUG] Successfully made the connection with runner with port: 41353
+11-04-2025 18:50:28.520 [Gauge] [DEBUG] Validation started.
+11-04-2025 18:50:28.551 [Gauge] [DEBUG] Validation completed.
+11-04-2025 18:50:28.552 [Gauge] [DEBUG] Run started
+11-04-2025 18:50:28.552 [Gauge] [DEBUG] Starting Html Report plugin
+11-04-2025 18:50:28.561 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 33833
+11-04-2025 18:50:28.561 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 33833
+11-04-2025 18:50:28.561 [Gauge] [DEBUG] Initialising suite data store.
+11-04-2025 18:50:30.629 [Gauge] [INFO] # Chức năng quản lý danh mục
+11-04-2025 18:50:30.638 [Gauge] [INFO] ## Truy cập danh sách danh mục
+11-04-2025 18:50:30.646 [Gauge] [DEBUG] * Đăng nhập với tài khoản quản trị hợp lệ
+11-04-2025 18:50:32.571 [Gauge] [DEBUG] * Click vào phần Danh mục
+11-04-2025 18:50:33.502 [Gauge] [DEBUG] * Kiểm tra tiêu đề 'Quản lý Danh mục' được hiển thị
+
+11-04-2025 18:50:33.526 [Gauge] [INFO] ## Thêm mới danh mục
+11-04-2025 18:50:33.531 [Gauge] [DEBUG] * Đăng nhập với tài khoản quản trị hợp lệ
+11-04-2025 18:50:34.372 [Gauge] [DEBUG] * Click vào phần Danh mục
+11-04-2025 18:50:35.194 [Gauge] [DEBUG] * Kiểm tra tiêu đề 'Quản lý Danh mục' được hiển thị
+11-04-2025 18:50:35.213 [Gauge] [DEBUG] * Click vào button Thêm mới
+11-04-2025 18:50:35.334 [Gauge] [DEBUG] * Nhập tên danh mục hợp lệ "Test Áo"
+11-04-2025 18:50:35.413 [Gauge] [DEBUG] * Chọn hình ảnh danh mục
+11-04-2025 18:50:35.606 [Gauge] [DEBUG] * Click vào button Thêm Danh Mục
+
+11-04-2025 18:50:35.736 [Gauge] [INFO] ## Thêm mới danh mục - thiếu tên
+11-04-2025 18:50:35.740 [Gauge] [DEBUG] * Đăng nhập với tài khoản quản trị hợp lệ
+11-04-2025 18:50:36.462 [Gauge] [DEBUG] * Click vào phần Danh mục
+11-04-2025 18:50:37.254 [Gauge] [DEBUG] * Kiểm tra tiêu đề 'Quản lý Danh mục' được hiển thị
+11-04-2025 18:50:37.273 [Gauge] [DEBUG] * Click vào button Thêm mới
+11-04-2025 18:50:37.383 [Gauge] [DEBUG] * Chọn hình ảnh danh mục
+11-04-2025 18:50:37.564 [Gauge] [DEBUG] * Click vào button Thêm Danh Mục
+11-04-2025 18:50:37.678 [Gauge] [DEBUG] * Kiểm tra thông báo lỗi thiếu tên danh mục
+
+11-04-2025 18:50:37.705 [Gauge] [INFO] ## Thêm mới danh mục - thiếu ảnh
+11-04-2025 18:50:37.710 [Gauge] [DEBUG] * Đăng nhập với tài khoản quản trị hợp lệ
+11-04-2025 18:50:38.447 [Gauge] [DEBUG] * Click vào phần Danh mục
+11-04-2025 18:50:39.183 [Gauge] [DEBUG] * Kiểm tra tiêu đề 'Quản lý Danh mục' được hiển thị
+11-04-2025 18:50:39.201 [Gauge] [DEBUG] * Click vào button Thêm mới
+11-04-2025 18:50:39.316 [Gauge] [DEBUG] * Nhập tên danh mục hợp lệ "Test Áo"
+11-04-2025 18:50:39.390 [Gauge] [DEBUG] * Click vào button Thêm Danh Mục
+11-04-2025 18:50:39.519 [Gauge] [DEBUG] * Kiểm tra thông báo lỗi thiếu hình ảnh
+
+11-04-2025 18:50:39.548 [Gauge] [INFO] ## Thêm mới danh mục - danh mục đã tồn tại
+11-04-2025 18:50:39.552 [Gauge] [DEBUG] * Đăng nhập với tài khoản quản trị hợp lệ
+11-04-2025 18:50:40.286 [Gauge] [DEBUG] * Click vào phần Danh mục
+11-04-2025 18:50:41.056 [Gauge] [DEBUG] * Kiểm tra tiêu đề 'Quản lý Danh mục' được hiển thị
+11-04-2025 18:50:41.074 [Gauge] [DEBUG] * Click vào button Thêm mới
+11-04-2025 18:50:41.186 [Gauge] [DEBUG] * Nhập tên danh mục hợp lệ "Test Áo"
+11-04-2025 18:50:41.260 [Gauge] [DEBUG] * Chọn hình ảnh danh mục
+11-04-2025 18:50:41.442 [Gauge] [DEBUG] * Click vào button Thêm Danh Mục
+11-04-2025 18:50:41.589 [Gauge] [DEBUG] * Kiểm tra thông báo lỗi danh mục trùng tên
+
+11-04-2025 18:50:41.819 [Gauge] [INFO] ## Chỉnh sửa danh mục - tên trống
+11-04-2025 18:50:41.824 [Gauge] [DEBUG] * Đăng nhập với tài khoản quản trị hợp lệ
+11-04-2025 18:50:42.544 [Gauge] [DEBUG] * Click vào phần Danh mục
+11-04-2025 18:50:43.202 [Gauge] [DEBUG] * Kiểm tra tiêu đề 'Quản lý Danh mục' được hiển thị
+11-04-2025 18:50:43.219 [Gauge] [DEBUG] * Click vào icon chỉnh sửa
+11-04-2025 18:50:44.134 [Gauge] [DEBUG] * Xóa tên danh mục hiện tại và để trống
+11-04-2025 18:50:44.213 [Gauge] [DEBUG] * Click vào button Cập nhật Danh Mục
+11-04-2025 18:50:44.327 [Gauge] [DEBUG] * Kiểm tra thông báo lỗi thiếu tên danh mục
+11-04-2025 18:50:44.533 [html-report] [DEBUG] Transformed SuiteResult to report structure
+11-04-2025 18:50:44.557 [html-report] [INFO] Successfully generated html-report to => /home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/reports/html-report/index.html
+11-04-2025 18:50:44.557 [html-report] [DEBUG] Done generating HTML report using theme from /home/devtaitv/.gauge/plugins/html-report/4.3.1/themes/default
+11-04-2025 18:50:44.558 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+11-04-2025 18:50:44.561 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+11-04-2025 18:50:44.561 [Gauge] [INFO] Scenarios:	6 executed	6 passed	0 failed	0 skipped
+11-04-2025 18:50:44.561 [Gauge] [INFO] 
+Total time taken: 15.979s
