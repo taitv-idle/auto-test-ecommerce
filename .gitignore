@@ -13,8 +13,8 @@ pnpm-lock.yaml
 .vscode/
 
 # Playwright specific
-
-
+reports/html-report/images
+.gauge
 # Environment files
 .env
 .env.local
