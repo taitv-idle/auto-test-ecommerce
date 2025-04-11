@@ -1,1 +1,1 @@
-var index = {"Tags":{},"Specs":{"Getting Started with Gauge":["specs/example.html"]}};
+var index = {"Tags":{},"Specs":{"Chức năng quản lý danh mục":["specs/admin/admin_category.html"]}};

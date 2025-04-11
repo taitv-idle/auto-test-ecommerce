@@ -1,5 +1,5 @@
 [
 	"gauge",
 	"run",
-	"specs/example.spec"
+	"specs/admin/admin_category.spec"
 ]

@@ -7,7 +7,8 @@
     "typescript": "^5.4.5"
   },
   "devDependencies": {
-    "@types/node": "latest",
+    "@playwright/test": "^1.51.1",
+    "@types/node": "^22.14.0",
     "playwright": "^1.51.1",
     "taiko": "^1.4.0"
   }
