@@ -12,6 +12,14 @@ export async function getPage(): Promise<Page> {
     }
     return page;
 }
+export async function loginAsAdmin() {
+// ✅ Tự động đăng nhập admin trước khi chạy các step
+    await page.goto('http://localhost:3000/admin/login');
+    await page.fill('input[name="email"]', 'taitv@abc.xxx');
+    await page.fill('input[name="password"]', '123456');
+    await page.click('xpath=//*[@id="root"]/div[1]/div/form/button');
+    await page.waitForURL('**/admin/dashboard');
+}
 
 export class Hooks {
     @BeforeSuite()
@@ -20,8 +28,11 @@ export class Hooks {
             headless: false,
             slowMo: 50
         });
-        page = await browser.newPage();
+
+        const context = await browser.newContext();
+        page = await context.newPage();
         await page.setViewportSize({ width: 1280, height: 800 });
+
     }
 
     @AfterSuite()
