@@ -16,3 +16,17 @@
 * Nhập mật khẩu không hợp lệ "1234567"
 * Nhấn nút đăng nhập
 * Kiểm tra hiển thị thông báo lỗi "Email hoặc mật khẩu không chính xác"
+
+## Đăng nhập thất bại khi email để trống
+* Truy cập trang đăng nhập admin
+* Nhập email trống
+* Nhập mật khẩu không hợp lệ "123456"
+* Nhấn nút đăng nhập
+* Kiểm tra hiển thị thông báo lỗi Please fill out this field
+
+## Đăng nhập thất bại khi mật khẩu để trống
+* Truy cập trang đăng nhập admin
+* Nhập email không hợp lệ "taitv@abc.xxxx"
+* Nhập mật khẩu trống
+* Nhấn nút đăng nhập
+* Kiểm tra hiển thị thông báo lỗi Please fill out this field

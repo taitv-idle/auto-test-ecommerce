@@ -76,4 +76,47 @@ export default class AdminLoginSteps {
         }
     }
 
+    @Step('Nhập email trống')
+    public async enterEmptyEmail() {
+        const page = await getPage();
+        await page.fill(this.selectors.emailInput, '');
+    }
+
+    @Step('Nhập mật khẩu trống')
+    public async enterEmptyPassword() {
+        const page = await getPage();
+        await page.fill(this.selectors.passwordInput, '');
+    }
+
+    @Step('Kiểm tra hiển thị thông báo lỗi Please fill out this field')
+    public async verifyEmptyFieldValidation() {
+        const page = await getPage();
+
+        const emailInput = await page.$(this.selectors.emailInput);
+        const passwordInput = await page.$(this.selectors.passwordInput);
+
+        if (!emailInput || !passwordInput) {
+            throw new Error('Không tìm thấy input email hoặc password');
+        }
+
+        // Nhấn nút submit để kích hoạt validation HTML5
+        await page.click(this.selectors.loginButton);
+
+        // Chờ trình duyệt hiển thị thông báo validation
+        await page.waitForTimeout(200);
+
+        // Kiểm tra giá trị của các input
+        const emailValue = await emailInput.evaluate((el: HTMLInputElement) => el.value.trim());
+        const passwordValue = await passwordInput.evaluate((el: HTMLInputElement) => el.value.trim());
+
+        if (!emailValue) {
+            const msg = await emailInput.evaluate((el: HTMLInputElement) => el.validationMessage);
+            expect(msg).toMatch(/please fill out this field|vui lòng điền|this field is required/i);
+        } else if (!passwordValue) {
+            const msg = await passwordInput.evaluate((el: HTMLInputElement) => el.validationMessage);
+            expect(msg).toMatch(/please fill out this field|vui lòng điền|this field is required/i);
+        } else {
+            throw new Error('Cả email và mật khẩu đều có giá trị. Không có lỗi validation nào để kiểm tra');
+        }
+    }
 }
