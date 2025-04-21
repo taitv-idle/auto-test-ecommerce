@@ -1,6 +1,7 @@
 import { Step } from 'gauge-ts';
 import { expect, Locator } from '@playwright/test';
 import { getPage, BASE_URL } from '../hooks';
+import { takeScreenshot } from '../helper/takeScreenshot';
 
 export default class CategorySteps {
     private readonly selectors = {
@@ -37,6 +38,7 @@ export default class CategorySteps {
         const page = await getPage();
         const title = await page.textContent(this.selectors.heading);
         expect(title?.trim()).toBe('Quản lý Danh mục');
+        await takeScreenshot('verify-category');
     }
 
     @Step('Click vào button Thêm mới')
@@ -76,6 +78,7 @@ export default class CategorySteps {
             (el: HTMLInputElement) => el.validationMessage
         );
         expect(validationMessage).toMatch(/vui lòng điền|please fill|this field is required/i);
+        await takeScreenshot('verify-null-category');
 
         // Cách 2: Kiểm tra thông báo lỗi UI (nếu có)
         const errorVisible = await page.isVisible(this.selectors.errorMessage);
@@ -91,6 +94,8 @@ export default class CategorySteps {
         await page.waitForSelector(this.selectors.imageErrorText, { timeout: 2000 });
         const errorVisible = await page.isVisible(this.selectors.imageErrorText);
         expect(errorVisible).toBeTruthy();
+        await takeScreenshot('verify-null-imgcategory');
+
     }
 
     @Step('Kiểm tra thông báo lỗi danh mục trùng tên')
@@ -99,6 +104,7 @@ export default class CategorySteps {
         await page.waitForSelector(this.selectors.duplicateErrorText, { timeout: 2000 });
         const errorVisible = await page.isVisible(this.selectors.duplicateErrorText);
         expect(errorVisible).toBeTruthy();
+        await takeScreenshot('verify-name-category');
     }
 
     @Step('Click vào icon chỉnh sửa')
@@ -198,8 +204,7 @@ export default class CategorySteps {
         const notFoundLocator = page.locator('td:has-text("Không tìm thấy danh mục nào")');
         // Kiểm tra phần tử có hiển thị hay không
         await expect(notFoundLocator).toBeVisible({ timeout: 10000 });
+        await takeScreenshot('verify-search-category');
     }
-
-
 
 }

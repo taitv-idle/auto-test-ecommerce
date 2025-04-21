@@ -1,7 +1,7 @@
 import { BeforeSuite, AfterSuite } from 'gauge-ts';
 import { Browser, chromium, Page } from 'playwright';
 
-export const BASE_URL = 'http://localhost:3000';
+export const BASE_URL = 'http://localhost:3001';
 
 export let browser: Browser;
 export let page: Page;
@@ -14,7 +14,7 @@ export async function getPage(): Promise<Page> {
 }
 export async function loginAsAdmin() {
 // ✅ Tự động đăng nhập admin trước khi chạy các step
-    await page.goto('http://localhost:3000/admin/login');
+    await page.goto(`${BASE_URL}/admin/login`);
     await page.fill('input[name="email"]', 'taitv@abc.xxx');
     await page.fill('input[name="password"]', '123456');
     await page.click('xpath=//*[@id="root"]/div[1]/div/form/button');

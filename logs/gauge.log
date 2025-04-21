@@ -4679,3 +4679,714 @@ Total time taken: 7.684s
 15-04-2025 00:53:02.099 [Gauge] [INFO] Scenarios:	9 executed	9 passed	0 failed	0 skipped
 15-04-2025 00:53:02.099 [Gauge] [INFO] 
 Total time taken: 14.376s
+15-04-2025 01:57:14.211 [Gauge] [DEBUG] Created gauge_screenshots_dir at /home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/.gauge/screenshots
+15-04-2025 01:57:14.212 [Gauge] [DEBUG] Plugin ts is already installed.
+15-04-2025 01:57:14.212 [Gauge] [DEBUG] Plugin html-report is already installed.
+15-04-2025 01:57:14.212 [Gauge] [DEBUG] Parsing started.
+15-04-2025 01:57:14.212 [Gauge] [DEBUG] Started concepts parsing.
+15-04-2025 01:57:14.304 [Gauge] [DEBUG] 0 concepts parsing completed.
+15-04-2025 01:57:14.304 [Gauge] [DEBUG] Started specifications parsing.
+15-04-2025 01:57:14.304 [Gauge] [DEBUG] 1 specifications parsing completed.
+15-04-2025 01:57:14.304 [Gauge] [DEBUG] Parsing completed.
+15-04-2025 01:57:15.198 [Gauge] [DEBUG] Checking updates...
+15-04-2025 01:57:15.199 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=ts&p=html-report,screenshot,ts&o=linux&a=amd64
+15-04-2025 01:57:15.471 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=ts&p=html-report,screenshot,ts&o=linux&a=amd64
+15-04-2025 01:57:15.535 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/ts?l=ts&p=html-report,screenshot,ts&o=linux&a=amd64
+15-04-2025 01:57:16.611 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 38077
+15-04-2025 01:57:16.611 [Gauge] [DEBUG] Successfully made the connection with runner with port: 38077
+15-04-2025 01:57:16.611 [Gauge] [DEBUG] Validation started.
+15-04-2025 01:57:16.643 [Gauge] [DEBUG] Validation completed.
+15-04-2025 01:57:16.643 [Gauge] [DEBUG] Run started
+15-04-2025 01:57:16.643 [Gauge] [DEBUG] Starting Html Report plugin
+15-04-2025 01:57:16.652 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 42589
+15-04-2025 01:57:16.652 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 42589
+15-04-2025 01:57:16.652 [Gauge] [DEBUG] Initialising suite data store.
+15-04-2025 01:57:19.030 [Gauge] [INFO] # Chức năng đăng nhập quản trị viên
+15-04-2025 01:57:19.036 [Gauge] [INFO] ## Đăng nhập thành công với thông tin hợp lệ
+15-04-2025 01:57:19.046 [Gauge] [DEBUG] * Đăng nhập với tài khoản quản trị hợp lệ
+
+15-04-2025 01:57:21.906 [Gauge] [ERROR] Error Message: gauge is not defined
+15-04-2025 01:57:21.906 [Gauge] [ERROR] Stacktrace: 
+ReferenceError: gauge is not defined
+    at AdminLoginChung.<anonymous> (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/hooks.ts:57:26)
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/hooks.ts:14:58)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+15-04-2025 01:57:21.915 [Gauge] [INFO] ## Đăng nhập thất bại với email không hợp lệ
+15-04-2025 01:57:21.919 [Gauge] [DEBUG] * Truy cập trang đăng nhập admin
+15-04-2025 01:57:22.771 [Gauge] [ERROR] Error Message: gauge is not defined
+15-04-2025 01:57:22.772 [Gauge] [ERROR] Stacktrace: 
+ReferenceError: gauge is not defined
+    at AdminLoginChung.<anonymous> (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/hooks.ts:57:26)
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/hooks.ts:14:58)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+15-04-2025 01:57:22.780 [Gauge] [INFO] ## Đăng nhập thất bại với mật khẩu không hợp lệ
+15-04-2025 01:57:22.785 [Gauge] [DEBUG] * Truy cập trang đăng nhập admin
+15-04-2025 01:57:23.328 [Gauge] [ERROR] Error Message: gauge is not defined
+15-04-2025 01:57:23.328 [Gauge] [ERROR] Stacktrace: 
+ReferenceError: gauge is not defined
+    at AdminLoginChung.<anonymous> (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/hooks.ts:57:26)
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/hooks.ts:14:58)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+15-04-2025 01:57:23.336 [Gauge] [INFO] ## Đăng nhập thất bại khi email để trống
+15-04-2025 01:57:23.340 [Gauge] [DEBUG] * Truy cập trang đăng nhập admin
+15-04-2025 01:57:23.967 [Gauge] [ERROR] Error Message: gauge is not defined
+15-04-2025 01:57:23.967 [Gauge] [ERROR] Stacktrace: 
+ReferenceError: gauge is not defined
+    at AdminLoginChung.<anonymous> (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/hooks.ts:57:26)
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/hooks.ts:14:58)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+15-04-2025 01:57:23.976 [Gauge] [INFO] ## Đăng nhập thất bại khi mật khẩu để trống
+15-04-2025 01:57:23.981 [Gauge] [DEBUG] * Truy cập trang đăng nhập admin
+15-04-2025 01:57:24.504 [Gauge] [ERROR] Error Message: gauge is not defined
+15-04-2025 01:57:24.504 [Gauge] [ERROR] Stacktrace: 
+ReferenceError: gauge is not defined
+    at AdminLoginChung.<anonymous> (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/hooks.ts:57:26)
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/hooks.ts:14:58)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+15-04-2025 01:57:24.702 [html-report] [DEBUG] Transformed SuiteResult to report structure
+15-04-2025 01:57:24.729 [html-report] [INFO] Successfully generated html-report to => /home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/reports/html-report/index.html
+15-04-2025 01:57:24.729 [html-report] [DEBUG] Done generating HTML report using theme from /home/devtaitv/.gauge/plugins/html-report/4.3.1/themes/default
+15-04-2025 01:57:24.729 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+15-04-2025 01:57:24.733 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+15-04-2025 01:57:24.733 [Gauge] [INFO] Scenarios:	5 executed	0 passed	5 failed	0 skipped
+15-04-2025 01:57:24.733 [Gauge] [INFO] 
+Total time taken: 8.058s
+15-04-2025 02:00:12.354 [Gauge] [DEBUG] Created gauge_screenshots_dir at /home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/.gauge/screenshots
+15-04-2025 02:00:12.354 [Gauge] [DEBUG] Plugin html-report is already installed.
+15-04-2025 02:00:12.355 [Gauge] [DEBUG] Plugin ts is already installed.
+15-04-2025 02:00:12.355 [Gauge] [DEBUG] Parsing started.
+15-04-2025 02:00:12.355 [Gauge] [DEBUG] Started concepts parsing.
+15-04-2025 02:00:12.454 [Gauge] [DEBUG] 0 concepts parsing completed.
+15-04-2025 02:00:12.454 [Gauge] [DEBUG] Started specifications parsing.
+15-04-2025 02:00:12.455 [Gauge] [DEBUG] 1 specifications parsing completed.
+15-04-2025 02:00:12.455 [Gauge] [DEBUG] Parsing completed.
+15-04-2025 02:00:13.408 [Gauge] [DEBUG] Checking updates...
+15-04-2025 02:00:13.409 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=ts&p=html-report,screenshot,ts&o=linux&a=amd64
+15-04-2025 02:00:13.668 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=ts&p=html-report,screenshot,ts&o=linux&a=amd64
+15-04-2025 02:00:13.729 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/ts?l=ts&p=html-report,screenshot,ts&o=linux&a=amd64
+15-04-2025 02:00:14.840 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 42371
+15-04-2025 02:00:14.840 [Gauge] [DEBUG] Successfully made the connection with runner with port: 42371
+15-04-2025 02:00:14.840 [Gauge] [DEBUG] Validation started.
+15-04-2025 02:00:14.873 [Gauge] [DEBUG] Validation completed.
+15-04-2025 02:00:14.873 [Gauge] [DEBUG] Run started
+15-04-2025 02:00:14.873 [Gauge] [DEBUG] Starting Html Report plugin
+15-04-2025 02:00:14.881 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 40903
+15-04-2025 02:00:14.881 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 40903
+15-04-2025 02:00:14.882 [Gauge] [DEBUG] Initialising suite data store.
+15-04-2025 02:00:16.490 [ts] [ERROR] tests/admin/admin_login.ts(2,19): error TS2305: Module '"../hooks"' has no exported member 'loginAsAdmin'.
+15-04-2025 02:00:17.251 [Gauge] [INFO] # Chức năng đăng nhập quản trị viên
+15-04-2025 02:00:17.258 [Gauge] [INFO] ## Đăng nhập thành công với thông tin hợp lệ
+15-04-2025 02:00:17.267 [Gauge] [DEBUG] * Đăng nhập với tài khoản quản trị hợp lệ
+
+15-04-2025 02:00:17.278 [ts] [ERROR] ⚠️ Failed to take screenshot: ReferenceError: gauge is not defined
+15-04-2025 02:00:17.278 [ts] [ERROR] at AdminLoginSteps.<anonymous> (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/hooks.ts:45:30)
+15-04-2025 02:00:17.278 [ts] [ERROR] at Generator.next (<anonymous>)
+15-04-2025 02:00:17.278 [ts] [ERROR] at fulfilled (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/hooks.ts:14:58)
+15-04-2025 02:00:17.278 [ts] [ERROR] at processTicksAndRejections (node:internal/process/task_queues:105:5)
+15-04-2025 02:00:17.280 [Gauge] [ERROR] Failed Step: Đăng nhập với tài khoản quản trị hợp lệ
+15-04-2025 02:00:17.280 [Gauge] [ERROR] Error Message: Step Implementation not found
+15-04-2025 02:00:17.280 [Gauge] [ERROR] Specification: specs/admin/admin_login.spec:4
+15-04-2025 02:00:17.280 [Gauge] [ERROR] Stacktrace: 
+15-04-2025 02:00:17.283 [Gauge] [INFO] ## Đăng nhập thất bại với email không hợp lệ
+15-04-2025 02:00:17.287 [Gauge] [DEBUG] * Truy cập trang đăng nhập admin
+15-04-2025 02:00:17.766 [ts] [ERROR] ⚠️ Failed to take screenshot: ReferenceError: gauge is not defined
+15-04-2025 02:00:17.766 [ts] [ERROR] at AdminLoginSteps.<anonymous> (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/hooks.ts:45:30)
+15-04-2025 02:00:17.767 [ts] [ERROR] at Generator.next (<anonymous>)
+15-04-2025 02:00:17.767 [ts] [ERROR] at fulfilled (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/hooks.ts:14:58)
+15-04-2025 02:00:17.767 [ts] [ERROR] at processTicksAndRejections (node:internal/process/task_queues:105:5)
+15-04-2025 02:00:17.768 [Gauge] [DEBUG] * Nhập email không hợp lệ "taitv@abc.xxxx"
+15-04-2025 02:00:18.734 [ts] [ERROR] ⚠️ Failed to take screenshot: ReferenceError: gauge is not defined
+15-04-2025 02:00:18.734 [ts] [ERROR] at AdminLoginSteps.<anonymous> (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/hooks.ts:45:30)
+15-04-2025 02:00:18.734 [ts] [ERROR] at Generator.next (<anonymous>)
+15-04-2025 02:00:18.735 [ts] [ERROR] at fulfilled (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/hooks.ts:14:58)
+15-04-2025 02:00:18.735 [ts] [ERROR] at processTicksAndRejections (node:internal/process/task_queues:105:5)
+15-04-2025 02:00:18.736 [Gauge] [DEBUG] * Nhập mật khẩu hợp lệ "123456"
+15-04-2025 02:00:18.814 [ts] [ERROR] ⚠️ Failed to take screenshot: ReferenceError: gauge is not defined
+15-04-2025 02:00:18.815 [ts] [ERROR] at AdminLoginSteps.<anonymous> (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/hooks.ts:45:30)
+15-04-2025 02:00:18.815 [ts] [ERROR] at Generator.next (<anonymous>)
+15-04-2025 02:00:18.815 [ts] [ERROR] at fulfilled (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/hooks.ts:14:58)
+15-04-2025 02:00:18.815 [ts] [ERROR] at processTicksAndRejections (node:internal/process/task_queues:105:5)
+15-04-2025 02:00:18.817 [Gauge] [DEBUG] * Nhấn nút đăng nhập
+15-04-2025 02:00:18.941 [ts] [ERROR] ⚠️ Failed to take screenshot: ReferenceError: gauge is not defined
+15-04-2025 02:00:18.941 [ts] [ERROR] at AdminLoginSteps.<anonymous> (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/hooks.ts:45:30)
+15-04-2025 02:00:18.941 [ts] [ERROR] at Generator.next (<anonymous>)
+15-04-2025 02:00:18.941 [ts] [ERROR] at fulfilled (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/hooks.ts:14:58)
+15-04-2025 02:00:18.941 [ts] [ERROR] at processTicksAndRejections (node:internal/process/task_queues:105:5)
+15-04-2025 02:00:18.943 [Gauge] [DEBUG] * Kiểm tra hiển thị thông báo lỗi "Email hoặc mật khẩu không chính xác"
+
+15-04-2025 02:00:19.198 [ts] [ERROR] ⚠️ Failed to take screenshot: ReferenceError: gauge is not defined
+15-04-2025 02:00:19.198 [ts] [ERROR] at AdminLoginSteps.<anonymous> (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/hooks.ts:45:30)
+15-04-2025 02:00:19.198 [ts] [ERROR] at Generator.next (<anonymous>)
+15-04-2025 02:00:19.198 [ts] [ERROR] at fulfilled (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/hooks.ts:14:58)
+15-04-2025 02:00:19.198 [ts] [ERROR] at processTicksAndRejections (node:internal/process/task_queues:105:5)
+15-04-2025 02:00:19.203 [Gauge] [INFO] ## Đăng nhập thất bại với mật khẩu không hợp lệ
+15-04-2025 02:00:19.207 [Gauge] [DEBUG] * Truy cập trang đăng nhập admin
+15-04-2025 02:00:19.385 [ts] [ERROR] ⚠️ Failed to take screenshot: ReferenceError: gauge is not defined
+15-04-2025 02:00:19.385 [ts] [ERROR] at AdminLoginSteps.<anonymous> (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/hooks.ts:45:30)
+15-04-2025 02:00:19.385 [ts] [ERROR] at Generator.next (<anonymous>)
+15-04-2025 02:00:19.385 [ts] [ERROR] at fulfilled (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/hooks.ts:14:58)
+15-04-2025 02:00:19.385 [ts] [ERROR] at processTicksAndRejections (node:internal/process/task_queues:105:5)
+15-04-2025 02:00:19.387 [Gauge] [DEBUG] * Nhập email hợp lệ "taitv@abc.xxx"
+15-04-2025 02:00:19.535 [ts] [ERROR] ⚠️ Failed to take screenshot: ReferenceError: gauge is not defined
+15-04-2025 02:00:19.535 [ts] [ERROR] at AdminLoginSteps.<anonymous> (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/hooks.ts:45:30)
+15-04-2025 02:00:19.535 [ts] [ERROR] at Generator.next (<anonymous>)
+15-04-2025 02:00:19.535 [ts] [ERROR] at fulfilled (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/hooks.ts:14:58)
+15-04-2025 02:00:19.535 [ts] [ERROR] at processTicksAndRejections (node:internal/process/task_queues:105:5)
+15-04-2025 02:00:19.536 [Gauge] [DEBUG] * Nhập mật khẩu không hợp lệ "1234567"
+15-04-2025 02:00:19.609 [ts] [ERROR] ⚠️ Failed to take screenshot: ReferenceError: gauge is not defined
+15-04-2025 02:00:19.610 [ts] [ERROR] at AdminLoginSteps.<anonymous> (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/hooks.ts:45:30)
+15-04-2025 02:00:19.610 [ts] [ERROR] at Generator.next (<anonymous>)
+15-04-2025 02:00:19.610 [ts] [ERROR] at fulfilled (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/hooks.ts:14:58)
+15-04-2025 02:00:19.610 [ts] [ERROR] at processTicksAndRejections (node:internal/process/task_queues:105:5)
+15-04-2025 02:00:19.611 [Gauge] [DEBUG] * Nhấn nút đăng nhập
+15-04-2025 02:00:19.726 [ts] [ERROR] ⚠️ Failed to take screenshot: ReferenceError: gauge is not defined
+15-04-2025 02:00:19.727 [ts] [ERROR] at AdminLoginSteps.<anonymous> (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/hooks.ts:45:30)
+15-04-2025 02:00:19.727 [ts] [ERROR] at Generator.next (<anonymous>)
+15-04-2025 02:00:19.727 [ts] [ERROR] at fulfilled (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/hooks.ts:14:58)
+15-04-2025 02:00:19.727 [ts] [ERROR] at processTicksAndRejections (node:internal/process/task_queues:105:5)
+15-04-2025 02:00:19.728 [Gauge] [DEBUG] * Kiểm tra hiển thị thông báo lỗi "Email hoặc mật khẩu không chính xác"
+
+15-04-2025 02:00:20.067 [ts] [ERROR] ⚠️ Failed to take screenshot: ReferenceError: gauge is not defined
+15-04-2025 02:00:20.067 [ts] [ERROR] at AdminLoginSteps.<anonymous> (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/hooks.ts:45:30)
+15-04-2025 02:00:20.068 [ts] [ERROR] at Generator.next (<anonymous>)
+15-04-2025 02:00:20.068 [ts] [ERROR] at fulfilled (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/hooks.ts:14:58)
+15-04-2025 02:00:20.068 [ts] [ERROR] at processTicksAndRejections (node:internal/process/task_queues:105:5)
+15-04-2025 02:00:20.071 [Gauge] [INFO] ## Đăng nhập thất bại khi email để trống
+15-04-2025 02:00:20.076 [Gauge] [DEBUG] * Truy cập trang đăng nhập admin
+15-04-2025 02:00:20.223 [ts] [ERROR] ⚠️ Failed to take screenshot: ReferenceError: gauge is not defined
+15-04-2025 02:00:20.224 [ts] [ERROR] at AdminLoginSteps.<anonymous> (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/hooks.ts:45:30)
+15-04-2025 02:00:20.224 [ts] [ERROR] at Generator.next (<anonymous>)
+15-04-2025 02:00:20.224 [ts] [ERROR] at fulfilled (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/hooks.ts:14:58)
+15-04-2025 02:00:20.224 [ts] [ERROR] at processTicksAndRejections (node:internal/process/task_queues:105:5)
+15-04-2025 02:00:20.225 [Gauge] [DEBUG] * Nhập email trống
+15-04-2025 02:00:20.329 [ts] [ERROR] ⚠️ Failed to take screenshot: ReferenceError: gauge is not defined
+15-04-2025 02:00:20.329 [ts] [ERROR] at AdminLoginSteps.<anonymous> (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/hooks.ts:45:30)
+15-04-2025 02:00:20.329 [ts] [ERROR] at Generator.next (<anonymous>)
+15-04-2025 02:00:20.329 [ts] [ERROR] at fulfilled (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/hooks.ts:14:58)
+15-04-2025 02:00:20.329 [ts] [ERROR] at processTicksAndRejections (node:internal/process/task_queues:105:5)
+15-04-2025 02:00:20.331 [Gauge] [DEBUG] * Nhập mật khẩu không hợp lệ "123456"
+15-04-2025 02:00:20.403 [ts] [ERROR] ⚠️ Failed to take screenshot: ReferenceError: gauge is not defined
+15-04-2025 02:00:20.403 [ts] [ERROR] at AdminLoginSteps.<anonymous> (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/hooks.ts:45:30)
+15-04-2025 02:00:20.403 [ts] [ERROR] at Generator.next (<anonymous>)
+15-04-2025 02:00:20.403 [ts] [ERROR] at fulfilled (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/hooks.ts:14:58)
+15-04-2025 02:00:20.403 [ts] [ERROR] at processTicksAndRejections (node:internal/process/task_queues:105:5)
+15-04-2025 02:00:20.404 [Gauge] [DEBUG] * Nhấn nút đăng nhập
+15-04-2025 02:00:20.529 [ts] [ERROR] ⚠️ Failed to take screenshot: ReferenceError: gauge is not defined
+15-04-2025 02:00:20.529 [ts] [ERROR] at AdminLoginSteps.<anonymous> (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/hooks.ts:45:30)
+15-04-2025 02:00:20.529 [ts] [ERROR] at Generator.next (<anonymous>)
+15-04-2025 02:00:20.529 [ts] [ERROR] at fulfilled (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/hooks.ts:14:58)
+15-04-2025 02:00:20.529 [ts] [ERROR] at processTicksAndRejections (node:internal/process/task_queues:105:5)
+15-04-2025 02:00:20.530 [Gauge] [DEBUG] * Kiểm tra hiển thị thông báo lỗi Please fill out this field
+
+15-04-2025 02:00:20.890 [ts] [ERROR] ⚠️ Failed to take screenshot: ReferenceError: gauge is not defined
+15-04-2025 02:00:20.890 [ts] [ERROR] at AdminLoginSteps.<anonymous> (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/hooks.ts:45:30)
+15-04-2025 02:00:20.890 [ts] [ERROR] at Generator.next (<anonymous>)
+15-04-2025 02:00:20.890 [ts] [ERROR] at fulfilled (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/hooks.ts:14:58)
+15-04-2025 02:00:20.890 [ts] [ERROR] at processTicksAndRejections (node:internal/process/task_queues:105:5)
+15-04-2025 02:00:20.894 [Gauge] [INFO] ## Đăng nhập thất bại khi mật khẩu để trống
+15-04-2025 02:00:20.899 [Gauge] [DEBUG] * Truy cập trang đăng nhập admin
+15-04-2025 02:00:21.049 [ts] [ERROR] ⚠️ Failed to take screenshot: ReferenceError: gauge is not defined
+15-04-2025 02:00:21.049 [ts] [ERROR] at AdminLoginSteps.<anonymous> (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/hooks.ts:45:30)
+15-04-2025 02:00:21.049 [ts] [ERROR] at Generator.next (<anonymous>)
+15-04-2025 02:00:21.049 [ts] [ERROR] at fulfilled (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/hooks.ts:14:58)
+15-04-2025 02:00:21.049 [ts] [ERROR] at processTicksAndRejections (node:internal/process/task_queues:105:5)
+15-04-2025 02:00:21.050 [Gauge] [DEBUG] * Nhập email không hợp lệ "taitv@abc.xxxx"
+15-04-2025 02:00:21.158 [ts] [ERROR] ⚠️ Failed to take screenshot: ReferenceError: gauge is not defined
+15-04-2025 02:00:21.158 [ts] [ERROR] at AdminLoginSteps.<anonymous> (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/hooks.ts:45:30)
+15-04-2025 02:00:21.158 [ts] [ERROR] at Generator.next (<anonymous>)
+15-04-2025 02:00:21.158 [ts] [ERROR] at fulfilled (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/hooks.ts:14:58)
+15-04-2025 02:00:21.158 [ts] [ERROR] at processTicksAndRejections (node:internal/process/task_queues:105:5)
+15-04-2025 02:00:21.159 [Gauge] [DEBUG] * Nhập mật khẩu trống
+15-04-2025 02:00:21.233 [ts] [ERROR] ⚠️ Failed to take screenshot: ReferenceError: gauge is not defined
+15-04-2025 02:00:21.233 [ts] [ERROR] at AdminLoginSteps.<anonymous> (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/hooks.ts:45:30)
+15-04-2025 02:00:21.233 [ts] [ERROR] at Generator.next (<anonymous>)
+15-04-2025 02:00:21.233 [ts] [ERROR] at fulfilled (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/hooks.ts:14:58)
+15-04-2025 02:00:21.233 [ts] [ERROR] at processTicksAndRejections (node:internal/process/task_queues:105:5)
+15-04-2025 02:00:21.234 [Gauge] [DEBUG] * Nhấn nút đăng nhập
+15-04-2025 02:00:21.341 [ts] [ERROR] ⚠️ Failed to take screenshot: ReferenceError: gauge is not defined
+15-04-2025 02:00:21.341 [ts] [ERROR] at AdminLoginSteps.<anonymous> (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/hooks.ts:45:30)
+15-04-2025 02:00:21.341 [ts] [ERROR] at Generator.next (<anonymous>)
+15-04-2025 02:00:21.341 [ts] [ERROR] at fulfilled (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/hooks.ts:14:58)
+15-04-2025 02:00:21.341 [ts] [ERROR] at processTicksAndRejections (node:internal/process/task_queues:105:5)
+15-04-2025 02:00:21.342 [Gauge] [DEBUG] * Kiểm tra hiển thị thông báo lỗi Please fill out this field
+15-04-2025 02:00:21.700 [ts] [ERROR] ⚠️ Failed to take screenshot: ReferenceError: gauge is not defined
+15-04-2025 02:00:21.700 [ts] [ERROR] at AdminLoginSteps.<anonymous> (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/hooks.ts:45:30)
+15-04-2025 02:00:21.700 [ts] [ERROR] at Generator.next (<anonymous>)
+15-04-2025 02:00:21.700 [ts] [ERROR] at fulfilled (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/hooks.ts:14:58)
+15-04-2025 02:00:21.700 [ts] [ERROR] at processTicksAndRejections (node:internal/process/task_queues:105:5)
+15-04-2025 02:00:21.876 [html-report] [DEBUG] Transformed SuiteResult to report structure
+15-04-2025 02:00:21.892 [html-report] [INFO] Successfully generated html-report to => /home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/reports/html-report/index.html
+15-04-2025 02:00:21.892 [html-report] [DEBUG] Done generating HTML report using theme from /home/devtaitv/.gauge/plugins/html-report/4.3.1/themes/default
+15-04-2025 02:00:21.892 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+15-04-2025 02:00:21.895 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+15-04-2025 02:00:21.895 [Gauge] [INFO] Scenarios:	5 executed	4 passed	1 failed	0 skipped
+15-04-2025 02:00:21.895 [Gauge] [INFO] 
+Total time taken: 7.002s
+15-04-2025 02:08:18.139 [Gauge] [DEBUG] Created gauge_screenshots_dir at /home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/.gauge/screenshots
+15-04-2025 02:08:18.140 [Gauge] [DEBUG] Plugin ts is already installed.
+15-04-2025 02:08:18.140 [Gauge] [DEBUG] Plugin html-report is already installed.
+15-04-2025 02:08:18.140 [Gauge] [DEBUG] Parsing started.
+15-04-2025 02:08:18.140 [Gauge] [DEBUG] Started concepts parsing.
+15-04-2025 02:08:18.237 [Gauge] [DEBUG] 0 concepts parsing completed.
+15-04-2025 02:08:18.237 [Gauge] [DEBUG] Started specifications parsing.
+15-04-2025 02:08:18.238 [Gauge] [DEBUG] 1 specifications parsing completed.
+15-04-2025 02:08:18.238 [Gauge] [DEBUG] Parsing completed.
+15-04-2025 02:08:19.134 [Gauge] [DEBUG] Checking updates...
+15-04-2025 02:08:19.135 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=ts&p=html-report,screenshot,ts&o=linux&a=amd64
+15-04-2025 02:08:19.372 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=ts&p=html-report,screenshot,ts&o=linux&a=amd64
+15-04-2025 02:08:19.435 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/ts?l=ts&p=html-report,screenshot,ts&o=linux&a=amd64
+15-04-2025 02:08:20.479 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 35317
+15-04-2025 02:08:20.479 [Gauge] [DEBUG] Successfully made the connection with runner with port: 35317
+15-04-2025 02:08:20.479 [Gauge] [DEBUG] Validation started.
+15-04-2025 02:08:20.511 [Gauge] [DEBUG] Validation completed.
+15-04-2025 02:08:20.512 [Gauge] [DEBUG] Run started
+15-04-2025 02:08:20.512 [Gauge] [DEBUG] Starting Html Report plugin
+15-04-2025 02:08:20.521 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+15-04-2025 02:08:20.521 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 35429
+15-04-2025 02:08:20.521 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 35429
+15-04-2025 02:08:20.521 [Gauge] [DEBUG] Initialising suite data store.
+15-04-2025 02:08:22.841 [Gauge] [INFO] # Chức năng đăng nhập quản trị viên
+15-04-2025 02:08:22.848 [Gauge] [INFO] ## Đăng nhập thành công với thông tin hợp lệ
+15-04-2025 02:08:22.858 [Gauge] [DEBUG] * Đăng nhập với tài khoản quản trị hợp lệ
+
+15-04-2025 02:08:26.794 [Gauge] [INFO] ## Đăng nhập thất bại với email không hợp lệ
+15-04-2025 02:08:26.798 [Gauge] [DEBUG] * Truy cập trang đăng nhập admin
+15-04-2025 02:08:27.814 [Gauge] [DEBUG] * Nhập email không hợp lệ "taitv@abc.xxxx"
+15-04-2025 02:08:28.163 [Gauge] [DEBUG] * Nhập mật khẩu hợp lệ "123456"
+15-04-2025 02:08:28.500 [Gauge] [DEBUG] * Nhấn nút đăng nhập
+15-04-2025 02:08:28.903 [Gauge] [DEBUG] * Kiểm tra hiển thị thông báo lỗi "Email hoặc mật khẩu không chính xác"
+
+15-04-2025 02:08:29.217 [Gauge] [INFO] ## Đăng nhập thất bại với mật khẩu không hợp lệ
+15-04-2025 02:08:29.221 [Gauge] [DEBUG] * Truy cập trang đăng nhập admin
+15-04-2025 02:08:29.695 [Gauge] [DEBUG] * Nhập email hợp lệ "taitv@abc.xxx"
+15-04-2025 02:08:30.047 [Gauge] [DEBUG] * Nhập mật khẩu không hợp lệ "1234567"
+15-04-2025 02:08:30.415 [Gauge] [DEBUG] * Nhấn nút đăng nhập
+15-04-2025 02:08:30.818 [Gauge] [DEBUG] * Kiểm tra hiển thị thông báo lỗi "Email hoặc mật khẩu không chính xác"
+
+15-04-2025 02:08:31.174 [Gauge] [INFO] ## Đăng nhập thất bại khi email để trống
+15-04-2025 02:08:31.179 [Gauge] [DEBUG] * Truy cập trang đăng nhập admin
+15-04-2025 02:08:31.677 [Gauge] [DEBUG] * Nhập email trống
+15-04-2025 02:08:32.045 [Gauge] [DEBUG] * Nhập mật khẩu không hợp lệ "123456"
+15-04-2025 02:08:32.395 [Gauge] [DEBUG] * Nhấn nút đăng nhập
+15-04-2025 02:08:32.848 [Gauge] [DEBUG] * Kiểm tra hiển thị thông báo lỗi Please fill out this field
+
+15-04-2025 02:08:33.505 [Gauge] [INFO] ## Đăng nhập thất bại khi mật khẩu để trống
+15-04-2025 02:08:33.509 [Gauge] [DEBUG] * Truy cập trang đăng nhập admin
+15-04-2025 02:08:33.963 [Gauge] [DEBUG] * Nhập email không hợp lệ "taitv@abc.xxxx"
+15-04-2025 02:08:34.316 [Gauge] [DEBUG] * Nhập mật khẩu trống
+15-04-2025 02:08:34.670 [Gauge] [DEBUG] * Nhấn nút đăng nhập
+15-04-2025 02:08:35.070 [Gauge] [DEBUG] * Kiểm tra hiển thị thông báo lỗi Please fill out this field
+15-04-2025 02:08:35.854 [html-report] [DEBUG] Transformed SuiteResult to report structure
+15-04-2025 02:08:35.872 [html-report] [INFO] Successfully generated html-report to => /home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/reports/html-report/index.html
+15-04-2025 02:08:35.872 [html-report] [DEBUG] Done generating HTML report using theme from /home/devtaitv/.gauge/plugins/html-report/4.3.1/themes/default
+15-04-2025 02:08:35.872 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+15-04-2025 02:08:35.874 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+15-04-2025 02:08:35.874 [Gauge] [INFO] Scenarios:	5 executed	5 passed	0 failed	0 skipped
+15-04-2025 02:08:35.875 [Gauge] [INFO] 
+Total time taken: 15.341s
+15-04-2025 02:16:23.237 [Gauge] [DEBUG] Created gauge_screenshots_dir at /home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/.gauge/screenshots
+15-04-2025 02:16:23.238 [Gauge] [DEBUG] Plugin ts is already installed.
+15-04-2025 02:16:23.238 [Gauge] [DEBUG] Plugin html-report is already installed.
+15-04-2025 02:16:23.238 [Gauge] [DEBUG] Parsing started.
+15-04-2025 02:16:23.238 [Gauge] [DEBUG] Started concepts parsing.
+15-04-2025 02:16:23.331 [Gauge] [DEBUG] 0 concepts parsing completed.
+15-04-2025 02:16:23.331 [Gauge] [DEBUG] Started specifications parsing.
+15-04-2025 02:16:23.332 [Gauge] [DEBUG] 1 specifications parsing completed.
+15-04-2025 02:16:23.332 [Gauge] [DEBUG] Parsing completed.
+15-04-2025 02:16:24.238 [Gauge] [DEBUG] Checking updates...
+15-04-2025 02:16:24.239 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=ts&p=html-report,screenshot,ts&o=linux&a=amd64
+15-04-2025 02:16:24.466 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=ts&p=html-report,screenshot,ts&o=linux&a=amd64
+15-04-2025 02:16:24.525 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/ts?l=ts&p=html-report,screenshot,ts&o=linux&a=amd64
+15-04-2025 02:16:25.681 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 43865
+15-04-2025 02:16:25.681 [Gauge] [DEBUG] Successfully made the connection with runner with port: 43865
+15-04-2025 02:16:25.681 [Gauge] [DEBUG] Validation started.
+15-04-2025 02:16:25.715 [Gauge] [DEBUG] Validation completed.
+15-04-2025 02:16:25.715 [Gauge] [DEBUG] Run started
+15-04-2025 02:16:25.715 [Gauge] [DEBUG] Starting Html Report plugin
+15-04-2025 02:16:25.723 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 40903
+15-04-2025 02:16:25.724 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 40903
+15-04-2025 02:16:25.724 [Gauge] [DEBUG] Initialising suite data store.
+15-04-2025 02:16:28.207 [Gauge] [INFO] # Chức năng đăng nhập quản trị viên
+15-04-2025 02:16:28.215 [Gauge] [INFO] ## Đăng nhập thành công với thông tin hợp lệ
+15-04-2025 02:16:28.222 [Gauge] [DEBUG] * Đăng nhập với tài khoản quản trị hợp lệ
+
+15-04-2025 02:16:30.148 [Gauge] [INFO] ## Đăng nhập thất bại với email không hợp lệ
+15-04-2025 02:16:30.154 [Gauge] [DEBUG] * Truy cập trang đăng nhập admin
+15-04-2025 02:16:30.345 [Gauge] [DEBUG] * Nhập email không hợp lệ "taitv@abc.xxxx"
+15-04-2025 02:16:30.509 [Gauge] [DEBUG] * Nhập mật khẩu hợp lệ "123456"
+15-04-2025 02:16:30.593 [Gauge] [DEBUG] * Nhấn nút đăng nhập
+15-04-2025 02:16:30.706 [Gauge] [DEBUG] * Kiểm tra hiển thị thông báo lỗi "Email hoặc mật khẩu không chính xác"
+
+15-04-2025 02:16:32.841 [Gauge] [INFO] ## Đăng nhập thất bại với mật khẩu không hợp lệ
+15-04-2025 02:16:32.845 [Gauge] [DEBUG] * Truy cập trang đăng nhập admin
+15-04-2025 02:16:32.981 [Gauge] [DEBUG] * Nhập email hợp lệ "taitv@abc.xxx"
+15-04-2025 02:16:33.090 [Gauge] [DEBUG] * Nhập mật khẩu không hợp lệ "1234567"
+15-04-2025 02:16:33.165 [Gauge] [DEBUG] * Nhấn nút đăng nhập
+15-04-2025 02:16:33.286 [Gauge] [DEBUG] * Kiểm tra hiển thị thông báo lỗi "Email hoặc mật khẩu không chính xác"
+
+15-04-2025 02:16:33.901 [Gauge] [INFO] ## Đăng nhập thất bại khi email để trống
+15-04-2025 02:16:33.905 [Gauge] [DEBUG] * Truy cập trang đăng nhập admin
+15-04-2025 02:16:34.050 [Gauge] [DEBUG] * Nhập email trống
+15-04-2025 02:16:34.181 [Gauge] [DEBUG] * Nhập mật khẩu không hợp lệ "123456"
+15-04-2025 02:16:34.254 [Gauge] [DEBUG] * Nhấn nút đăng nhập
+15-04-2025 02:16:34.369 [Gauge] [DEBUG] * Kiểm tra hiển thị thông báo lỗi Please fill out this field
+
+15-04-2025 02:16:35.083 [Gauge] [INFO] ## Đăng nhập thất bại khi mật khẩu để trống
+15-04-2025 02:16:35.086 [Gauge] [DEBUG] * Truy cập trang đăng nhập admin
+15-04-2025 02:16:35.217 [Gauge] [DEBUG] * Nhập email không hợp lệ "taitv@abc.xxxx"
+15-04-2025 02:16:35.323 [Gauge] [DEBUG] * Nhập mật khẩu trống
+15-04-2025 02:16:35.395 [Gauge] [DEBUG] * Nhấn nút đăng nhập
+15-04-2025 02:16:35.502 [Gauge] [DEBUG] * Kiểm tra hiển thị thông báo lỗi Please fill out this field
+15-04-2025 02:16:36.356 [html-report] [DEBUG] Transformed SuiteResult to report structure
+15-04-2025 02:16:36.371 [html-report] [INFO] Successfully generated html-report to => /home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/reports/html-report/index.html
+15-04-2025 02:16:36.371 [html-report] [DEBUG] Done generating HTML report using theme from /home/devtaitv/.gauge/plugins/html-report/4.3.1/themes/default
+15-04-2025 02:16:36.371 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+15-04-2025 02:16:36.374 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+15-04-2025 02:16:36.374 [Gauge] [INFO] Scenarios:	5 executed	5 passed	0 failed	0 skipped
+15-04-2025 02:16:36.374 [Gauge] [INFO] 
+Total time taken: 10.64s
+15-04-2025 07:20:07.123 [Gauge] [DEBUG] Created gauge_screenshots_dir at /home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/.gauge/screenshots
+15-04-2025 07:20:07.126 [Gauge] [DEBUG] Plugin ts is already installed.
+15-04-2025 07:20:07.128 [Gauge] [DEBUG] Plugin html-report is already installed.
+15-04-2025 07:20:07.130 [Gauge] [DEBUG] Parsing started.
+15-04-2025 07:20:07.131 [Gauge] [DEBUG] Started concepts parsing.
+15-04-2025 07:20:07.327 [Gauge] [DEBUG] 0 concepts parsing completed.
+15-04-2025 07:20:07.327 [Gauge] [DEBUG] Started specifications parsing.
+15-04-2025 07:20:07.331 [Gauge] [DEBUG] 1 specifications parsing completed.
+15-04-2025 07:20:07.331 [Gauge] [DEBUG] Parsing completed.
+15-04-2025 07:20:08.242 [Gauge] [DEBUG] Checking updates...
+15-04-2025 07:20:08.242 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=ts&p=html-report,screenshot,ts&o=linux&a=amd64
+15-04-2025 07:20:08.722 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=ts&p=html-report,screenshot,ts&o=linux&a=amd64
+15-04-2025 07:20:08.787 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/ts?l=ts&p=html-report,screenshot,ts&o=linux&a=amd64
+15-04-2025 07:20:10.417 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 34319
+15-04-2025 07:20:10.420 [Gauge] [DEBUG] Successfully made the connection with runner with port: 34319
+15-04-2025 07:20:10.420 [Gauge] [DEBUG] Validation started.
+15-04-2025 07:20:10.453 [Gauge] [DEBUG] Validation completed.
+15-04-2025 07:20:10.453 [Gauge] [DEBUG] Run started
+15-04-2025 07:20:10.453 [Gauge] [DEBUG] Starting Html Report plugin
+15-04-2025 07:20:10.538 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 33817
+15-04-2025 07:20:10.539 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 33817
+15-04-2025 07:20:10.539 [Gauge] [DEBUG] Initialising suite data store.
+15-04-2025 07:20:15.772 [Gauge] [INFO] # Chức năng đăng nhập quản trị viên
+15-04-2025 07:20:15.782 [Gauge] [INFO] ## Đăng nhập thành công với thông tin hợp lệ
+15-04-2025 07:20:15.791 [Gauge] [DEBUG] * Đăng nhập với tài khoản quản trị hợp lệ
+
+15-04-2025 07:20:48.956 [Gauge] [ERROR] Failed Step: Đăng nhập với tài khoản quản trị hợp lệ
+15-04-2025 07:20:48.956 [Gauge] [ERROR] Error Message: page.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('input[name="email"]')[22m
+15-04-2025 07:20:48.956 [Gauge] [ERROR] Specification: specs/admin/admin_login.spec:4
+15-04-2025 07:20:48.956 [Gauge] [ERROR] Stacktrace: 
+page.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('input[name="email"]')[22m
+
+    at /home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/hooks.ts:18:16
+    at fulfilled (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/hooks.ts:14:58)
+15-04-2025 07:20:48.959 [Gauge] [INFO] ## Đăng nhập thất bại với email không hợp lệ
+15-04-2025 07:20:48.964 [Gauge] [DEBUG] * Truy cập trang đăng nhập admin
+15-04-2025 07:20:49.537 [Gauge] [DEBUG] * Nhập email không hợp lệ "taitv@abc.xxxx"
+15-04-2025 07:20:59.312 [Gauge] [ERROR] Failed Step: Nhập email không hợp lệ "taitv@abc.xxxx"
+15-04-2025 07:20:59.312 [Gauge] [ERROR] Error Message: page.fill: Target page, context or browser has been closed
+Call log:
+[2m  - waiting for locator('input[name="email"]')[22m
+15-04-2025 07:20:59.312 [Gauge] [ERROR] Specification: specs/admin/admin_login.spec:8
+15-04-2025 07:20:59.312 [Gauge] [ERROR] Stacktrace: 
+page.fill: Target page, context or browser has been closed
+Call log:
+[2m  - waiting for locator('input[name="email"]')[22m
+
+    at AdminLoginSteps.<anonymous> (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/admin/admin_login.steps.ts:23:20)
+    at fulfilled (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/admin/admin_login.steps.ts:14:58)
+15-04-2025 07:20:59.314 [Gauge] [INFO] ## Đăng nhập thất bại với mật khẩu không hợp lệ
+15-04-2025 07:20:59.319 [Gauge] [DEBUG] * Truy cập trang đăng nhập admin
+15-04-2025 07:21:00.594 [Gauge] [ERROR] Failed Step: Truy cập trang đăng nhập admin
+15-04-2025 07:21:00.594 [Gauge] [ERROR] Error Message: page.goto: Target page, context or browser has been closed
+15-04-2025 07:21:00.594 [Gauge] [ERROR] Specification: specs/admin/admin_login.spec:14
+15-04-2025 07:21:00.594 [Gauge] [ERROR] Stacktrace: 
+page.goto: Target page, context or browser has been closed
+    at AdminLoginSteps.<anonymous> (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/admin/admin_login.steps.ts:17:20)
+    at fulfilled (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/admin/admin_login.steps.ts:14:58)
+15-04-2025 07:21:00.597 [Gauge] [INFO] ## Đăng nhập thất bại khi email để trống
+15-04-2025 07:21:00.604 [Gauge] [DEBUG] * Truy cập trang đăng nhập admin
+15-04-2025 07:21:01.864 [Gauge] [ERROR] Failed Step: Truy cập trang đăng nhập admin
+15-04-2025 07:21:01.864 [Gauge] [ERROR] Error Message: page.goto: Target page, context or browser has been closed
+15-04-2025 07:21:01.865 [Gauge] [ERROR] Specification: specs/admin/admin_login.spec:21
+15-04-2025 07:21:01.865 [Gauge] [ERROR] Stacktrace: 
+page.goto: Target page, context or browser has been closed
+    at AdminLoginSteps.<anonymous> (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/admin/admin_login.steps.ts:17:20)
+    at fulfilled (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/admin/admin_login.steps.ts:14:58)
+15-04-2025 07:21:01.867 [Gauge] [INFO] ## Đăng nhập thất bại khi mật khẩu để trống
+15-04-2025 07:21:01.872 [Gauge] [DEBUG] * Truy cập trang đăng nhập admin
+15-04-2025 07:21:03.116 [Gauge] [ERROR] Failed Step: Truy cập trang đăng nhập admin
+15-04-2025 07:21:03.116 [Gauge] [ERROR] Error Message: page.goto: Target page, context or browser has been closed
+15-04-2025 07:21:03.116 [Gauge] [ERROR] Specification: specs/admin/admin_login.spec:28
+15-04-2025 07:21:03.116 [Gauge] [ERROR] Stacktrace: 
+page.goto: Target page, context or browser has been closed
+    at AdminLoginSteps.<anonymous> (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/admin/admin_login.steps.ts:17:20)
+    at fulfilled (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/admin/admin_login.steps.ts:14:58)
+15-04-2025 07:21:03.284 [html-report] [DEBUG] Transformed SuiteResult to report structure
+15-04-2025 07:21:03.310 [html-report] [INFO] Successfully generated html-report to => /home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/reports/html-report/index.html
+15-04-2025 07:21:03.310 [html-report] [DEBUG] Done generating HTML report using theme from /home/devtaitv/.gauge/plugins/html-report/4.3.1/themes/default
+15-04-2025 07:21:03.310 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+15-04-2025 07:21:03.313 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+15-04-2025 07:21:03.313 [Gauge] [INFO] Scenarios:	5 executed	0 passed	5 failed	0 skipped
+15-04-2025 07:21:03.313 [Gauge] [INFO] 
+Total time taken: 52.829s
+15-04-2025 07:21:20.351 [Gauge] [DEBUG] Created gauge_screenshots_dir at /home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/.gauge/screenshots
+15-04-2025 07:21:20.352 [Gauge] [DEBUG] Plugin ts is already installed.
+15-04-2025 07:21:20.352 [Gauge] [DEBUG] Plugin html-report is already installed.
+15-04-2025 07:21:20.352 [Gauge] [DEBUG] Parsing started.
+15-04-2025 07:21:20.352 [Gauge] [DEBUG] Started concepts parsing.
+15-04-2025 07:21:20.461 [Gauge] [DEBUG] 0 concepts parsing completed.
+15-04-2025 07:21:20.462 [Gauge] [DEBUG] Started specifications parsing.
+15-04-2025 07:21:20.463 [Gauge] [DEBUG] 1 specifications parsing completed.
+15-04-2025 07:21:20.463 [Gauge] [DEBUG] Parsing completed.
+15-04-2025 07:21:21.021 [Gauge] [DEBUG] Checking updates...
+15-04-2025 07:21:21.022 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=ts&p=html-report,screenshot,ts&o=linux&a=amd64
+15-04-2025 07:21:21.220 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=ts&p=html-report,screenshot,ts&o=linux&a=amd64
+15-04-2025 07:21:21.286 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/ts?l=ts&p=html-report,screenshot,ts&o=linux&a=amd64
+15-04-2025 07:21:22.794 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 41087
+15-04-2025 07:21:22.794 [Gauge] [DEBUG] Successfully made the connection with runner with port: 41087
+15-04-2025 07:21:22.794 [Gauge] [DEBUG] Validation started.
+15-04-2025 07:21:22.826 [Gauge] [DEBUG] Validation completed.
+15-04-2025 07:21:22.826 [Gauge] [DEBUG] Run started
+15-04-2025 07:21:22.826 [Gauge] [DEBUG] Starting Html Report plugin
+15-04-2025 07:21:22.835 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+15-04-2025 07:21:22.835 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 42095
+15-04-2025 07:21:22.835 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 42095
+15-04-2025 07:21:22.835 [Gauge] [DEBUG] Initialising suite data store.
+15-04-2025 07:21:25.061 [Gauge] [INFO] # Chức năng đăng nhập quản trị viên
+15-04-2025 07:21:25.067 [Gauge] [INFO] ## Đăng nhập thành công với thông tin hợp lệ
+15-04-2025 07:21:25.072 [Gauge] [DEBUG] * Đăng nhập với tài khoản quản trị hợp lệ
+
+15-04-2025 07:22:12.276 [Gauge] [DEBUG] Created gauge_screenshots_dir at /home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/.gauge/screenshots
+15-04-2025 07:22:12.276 [Gauge] [DEBUG] Plugin ts is already installed.
+15-04-2025 07:22:12.277 [Gauge] [DEBUG] Plugin html-report is already installed.
+15-04-2025 07:22:12.277 [Gauge] [DEBUG] Parsing started.
+15-04-2025 07:22:12.277 [Gauge] [DEBUG] Started concepts parsing.
+15-04-2025 07:22:12.379 [Gauge] [DEBUG] 0 concepts parsing completed.
+15-04-2025 07:22:12.379 [Gauge] [DEBUG] Started specifications parsing.
+15-04-2025 07:22:12.381 [Gauge] [DEBUG] 1 specifications parsing completed.
+15-04-2025 07:22:12.381 [Gauge] [DEBUG] Parsing completed.
+15-04-2025 07:22:12.986 [Gauge] [DEBUG] Checking updates...
+15-04-2025 07:22:12.986 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=ts&p=html-report,screenshot,ts&o=linux&a=amd64
+15-04-2025 07:22:13.213 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=ts&p=html-report,screenshot,ts&o=linux&a=amd64
+15-04-2025 07:22:13.278 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/ts?l=ts&p=html-report,screenshot,ts&o=linux&a=amd64
+15-04-2025 07:22:14.569 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 40029
+15-04-2025 07:22:14.570 [Gauge] [DEBUG] Successfully made the connection with runner with port: 40029
+15-04-2025 07:22:14.570 [Gauge] [DEBUG] Validation started.
+15-04-2025 07:22:14.604 [Gauge] [DEBUG] Validation completed.
+15-04-2025 07:22:14.604 [Gauge] [DEBUG] Run started
+15-04-2025 07:22:14.605 [Gauge] [DEBUG] Starting Html Report plugin
+15-04-2025 07:22:14.613 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+15-04-2025 07:22:14.613 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 37425
+15-04-2025 07:22:14.614 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 37425
+15-04-2025 07:22:14.614 [Gauge] [DEBUG] Initialising suite data store.
+15-04-2025 07:22:16.819 [Gauge] [INFO] # Chức năng đăng nhập quản trị viên
+15-04-2025 07:22:16.825 [Gauge] [INFO] ## Đăng nhập thành công với thông tin hợp lệ
+15-04-2025 07:22:16.832 [Gauge] [DEBUG] * Đăng nhập với tài khoản quản trị hợp lệ
+
+15-04-2025 07:22:49.448 [Gauge] [ERROR] Failed Step: Đăng nhập với tài khoản quản trị hợp lệ
+15-04-2025 07:22:49.448 [Gauge] [ERROR] Error Message: page.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('input[name="email"]')[22m
+15-04-2025 07:22:49.448 [Gauge] [ERROR] Specification: specs/admin/admin_login.spec:4
+15-04-2025 07:22:49.448 [Gauge] [ERROR] Stacktrace: 
+page.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('input[name="email"]')[22m
+
+    at /home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/hooks.ts:18:16
+    at fulfilled (/home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/tests/hooks.ts:14:58)
+15-04-2025 07:22:49.451 [Gauge] [INFO] ## Đăng nhập thất bại với email không hợp lệ
+15-04-2025 07:22:49.457 [Gauge] [DEBUG] * Truy cập trang đăng nhập admin
+15-04-2025 07:22:49.941 [Gauge] [DEBUG] * Nhập email không hợp lệ "taitv@abc.xxxx"
+15-04-2025 07:22:50.885 [Gauge] [DEBUG] * Nhập mật khẩu hợp lệ "123456"
+15-04-2025 07:22:50.960 [Gauge] [DEBUG] * Nhấn nút đăng nhập
+15-04-2025 07:22:51.110 [Gauge] [DEBUG] * Kiểm tra hiển thị thông báo lỗi "Email hoặc mật khẩu không chính xác"
+
+15-04-2025 07:22:51.696 [Gauge] [INFO] ## Đăng nhập thất bại với mật khẩu không hợp lệ
+15-04-2025 07:22:51.700 [Gauge] [DEBUG] * Truy cập trang đăng nhập admin
+15-04-2025 07:22:51.870 [Gauge] [DEBUG] * Nhập email hợp lệ "taitv@abc.xxx"
+15-04-2025 07:22:52.033 [Gauge] [DEBUG] * Nhập mật khẩu không hợp lệ "1234567"
+15-04-2025 07:22:52.105 [Gauge] [DEBUG] * Nhấn nút đăng nhập
+15-04-2025 07:22:52.229 [Gauge] [DEBUG] * Kiểm tra hiển thị thông báo lỗi "Email hoặc mật khẩu không chính xác"
+
+15-04-2025 07:22:52.836 [Gauge] [INFO] ## Đăng nhập thất bại khi email để trống
+15-04-2025 07:22:52.839 [Gauge] [DEBUG] * Truy cập trang đăng nhập admin
+15-04-2025 07:22:52.970 [Gauge] [DEBUG] * Nhập email trống
+15-04-2025 07:22:53.092 [Gauge] [DEBUG] * Nhập mật khẩu không hợp lệ "123456"
+15-04-2025 07:22:53.163 [Gauge] [DEBUG] * Nhấn nút đăng nhập
+15-04-2025 07:22:53.281 [Gauge] [DEBUG] * Kiểm tra hiển thị thông báo lỗi Please fill out this field
+
+15-04-2025 07:22:53.958 [Gauge] [INFO] ## Đăng nhập thất bại khi mật khẩu để trống
+15-04-2025 07:22:53.962 [Gauge] [DEBUG] * Truy cập trang đăng nhập admin
+15-04-2025 07:22:54.100 [Gauge] [DEBUG] * Nhập email không hợp lệ "taitv@abc.xxxx"
+15-04-2025 07:22:54.202 [Gauge] [DEBUG] * Nhập mật khẩu trống
+15-04-2025 07:22:54.273 [Gauge] [DEBUG] * Nhấn nút đăng nhập
+15-04-2025 07:22:54.390 [Gauge] [DEBUG] * Kiểm tra hiển thị thông báo lỗi Please fill out this field
+15-04-2025 07:22:55.197 [html-report] [DEBUG] Transformed SuiteResult to report structure
+15-04-2025 07:22:55.218 [html-report] [INFO] Successfully generated html-report to => /home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/reports/html-report/index.html
+15-04-2025 07:22:55.218 [html-report] [DEBUG] Done generating HTML report using theme from /home/devtaitv/.gauge/plugins/html-report/4.3.1/themes/default
+15-04-2025 07:22:55.218 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+15-04-2025 07:22:55.222 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+15-04-2025 07:22:55.222 [Gauge] [INFO] Scenarios:	5 executed	4 passed	1 failed	0 skipped
+15-04-2025 07:22:55.222 [Gauge] [INFO] 
+Total time taken: 40.592s
+15-04-2025 07:30:57.815 [Gauge] [DEBUG] Created gauge_screenshots_dir at /home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/.gauge/screenshots
+15-04-2025 07:30:57.816 [Gauge] [DEBUG] Plugin ts is already installed.
+15-04-2025 07:30:57.816 [Gauge] [DEBUG] Plugin html-report is already installed.
+15-04-2025 07:30:57.816 [Gauge] [DEBUG] Parsing started.
+15-04-2025 07:30:57.816 [Gauge] [DEBUG] Started concepts parsing.
+15-04-2025 07:30:57.930 [Gauge] [DEBUG] 0 concepts parsing completed.
+15-04-2025 07:30:57.930 [Gauge] [DEBUG] Started specifications parsing.
+15-04-2025 07:30:57.930 [Gauge] [DEBUG] 1 specifications parsing completed.
+15-04-2025 07:30:57.930 [Gauge] [DEBUG] Parsing completed.
+15-04-2025 07:30:58.924 [Gauge] [DEBUG] Checking updates...
+15-04-2025 07:30:58.924 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=ts&p=html-report,screenshot,ts&o=linux&a=amd64
+15-04-2025 07:30:59.182 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=ts&p=html-report,screenshot,ts&o=linux&a=amd64
+15-04-2025 07:30:59.250 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/ts?l=ts&p=html-report,screenshot,ts&o=linux&a=amd64
+15-04-2025 07:31:00.163 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 40695
+15-04-2025 07:31:00.163 [Gauge] [DEBUG] Successfully made the connection with runner with port: 40695
+15-04-2025 07:31:00.163 [Gauge] [DEBUG] Validation started.
+15-04-2025 07:31:00.195 [Gauge] [DEBUG] Validation completed.
+15-04-2025 07:31:00.195 [Gauge] [DEBUG] Run started
+15-04-2025 07:31:00.195 [Gauge] [DEBUG] Starting Html Report plugin
+15-04-2025 07:31:00.204 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 37921
+15-04-2025 07:31:00.204 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 37921
+15-04-2025 07:31:00.204 [Gauge] [DEBUG] Initialising suite data store.
+15-04-2025 07:31:02.403 [Gauge] [INFO] # Chức năng đăng nhập quản trị viên
+15-04-2025 07:31:02.410 [Gauge] [INFO] ## Đăng nhập thành công với thông tin hợp lệ
+15-04-2025 07:31:02.420 [Gauge] [DEBUG] * Đăng nhập với tài khoản quản trị hợp lệ
+
+15-04-2025 07:31:04.353 [Gauge] [INFO] ## Đăng nhập thất bại với email không hợp lệ
+15-04-2025 07:31:04.358 [Gauge] [DEBUG] * Truy cập trang đăng nhập admin
+15-04-2025 07:31:04.547 [Gauge] [DEBUG] * Nhập email không hợp lệ "taitv@abc.xxxx"
+15-04-2025 07:31:04.752 [Gauge] [DEBUG] * Nhập mật khẩu hợp lệ "123456"
+15-04-2025 07:31:04.826 [Gauge] [DEBUG] * Nhấn nút đăng nhập
+15-04-2025 07:31:04.950 [Gauge] [DEBUG] * Kiểm tra hiển thị thông báo lỗi "Email hoặc mật khẩu không chính xác"
+
+15-04-2025 07:31:05.603 [Gauge] [INFO] ## Đăng nhập thất bại với mật khẩu không hợp lệ
+15-04-2025 07:31:05.607 [Gauge] [DEBUG] * Truy cập trang đăng nhập admin
+15-04-2025 07:31:05.741 [Gauge] [DEBUG] * Nhập email hợp lệ "taitv@abc.xxx"
+15-04-2025 07:31:05.849 [Gauge] [DEBUG] * Nhập mật khẩu không hợp lệ "1234567"
+15-04-2025 07:31:05.928 [Gauge] [DEBUG] * Nhấn nút đăng nhập
+15-04-2025 07:31:06.041 [Gauge] [DEBUG] * Kiểm tra hiển thị thông báo lỗi "Email hoặc mật khẩu không chính xác"
+
+15-04-2025 07:31:06.644 [Gauge] [INFO] ## Đăng nhập thất bại khi email để trống
+15-04-2025 07:31:06.648 [Gauge] [DEBUG] * Truy cập trang đăng nhập admin
+15-04-2025 07:31:06.787 [Gauge] [DEBUG] * Nhập email trống
+15-04-2025 07:31:06.924 [Gauge] [DEBUG] * Nhập mật khẩu không hợp lệ "123456"
+15-04-2025 07:31:06.998 [Gauge] [DEBUG] * Nhấn nút đăng nhập
+15-04-2025 07:31:07.108 [Gauge] [DEBUG] * Kiểm tra hiển thị thông báo lỗi Please fill out this field
+
+15-04-2025 07:31:07.800 [Gauge] [INFO] ## Đăng nhập thất bại khi mật khẩu để trống
+15-04-2025 07:31:07.804 [Gauge] [DEBUG] * Truy cập trang đăng nhập admin
+15-04-2025 07:31:07.939 [Gauge] [DEBUG] * Nhập email không hợp lệ "taitv@abc.xxxx"
+15-04-2025 07:31:08.043 [Gauge] [DEBUG] * Nhập mật khẩu trống
+15-04-2025 07:31:08.118 [Gauge] [DEBUG] * Nhấn nút đăng nhập
+15-04-2025 07:31:08.239 [Gauge] [DEBUG] * Kiểm tra hiển thị thông báo lỗi Please fill out this field
+15-04-2025 07:31:09.084 [html-report] [DEBUG] Transformed SuiteResult to report structure
+15-04-2025 07:31:09.108 [html-report] [INFO] Successfully generated html-report to => /home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/reports/html-report/index.html
+15-04-2025 07:31:09.108 [html-report] [DEBUG] Done generating HTML report using theme from /home/devtaitv/.gauge/plugins/html-report/4.3.1/themes/default
+15-04-2025 07:31:09.108 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+15-04-2025 07:31:09.112 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+15-04-2025 07:31:09.112 [Gauge] [INFO] Scenarios:	5 executed	5 passed	0 failed	0 skipped
+15-04-2025 07:31:09.112 [Gauge] [INFO] 
+Total time taken: 8.888s
+15-04-2025 07:57:17.534 [Gauge] [DEBUG] Created gauge_screenshots_dir at /home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/.gauge/screenshots
+15-04-2025 07:57:17.535 [Gauge] [DEBUG] Plugin html-report is already installed.
+15-04-2025 07:57:17.535 [Gauge] [DEBUG] Plugin ts is already installed.
+15-04-2025 07:57:17.535 [Gauge] [DEBUG] Parsing started.
+15-04-2025 07:57:17.535 [Gauge] [DEBUG] Started concepts parsing.
+15-04-2025 07:57:17.629 [Gauge] [DEBUG] 0 concepts parsing completed.
+15-04-2025 07:57:17.629 [Gauge] [DEBUG] Started specifications parsing.
+15-04-2025 07:57:17.630 [Gauge] [DEBUG] 1 specifications parsing completed.
+15-04-2025 07:57:17.630 [Gauge] [DEBUG] Parsing completed.
+15-04-2025 07:57:18.530 [Gauge] [DEBUG] Checking updates...
+15-04-2025 07:57:18.531 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=ts&p=html-report,screenshot,ts&o=linux&a=amd64
+15-04-2025 07:57:19.035 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=ts&p=html-report,screenshot,ts&o=linux&a=amd64
+15-04-2025 07:57:19.105 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/ts?l=ts&p=html-report,screenshot,ts&o=linux&a=amd64
+15-04-2025 07:57:19.832 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 36389
+15-04-2025 07:57:19.832 [Gauge] [DEBUG] Successfully made the connection with runner with port: 36389
+15-04-2025 07:57:19.833 [Gauge] [DEBUG] Validation started.
+15-04-2025 07:57:19.875 [Gauge] [DEBUG] Validation completed.
+15-04-2025 07:57:19.875 [Gauge] [DEBUG] Run started
+15-04-2025 07:57:19.875 [Gauge] [DEBUG] Starting Html Report plugin
+15-04-2025 07:57:19.884 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 35105
+15-04-2025 07:57:19.884 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 35105
+15-04-2025 07:57:19.884 [Gauge] [DEBUG] Initialising suite data store.
+15-04-2025 07:57:22.060 [Gauge] [INFO] # Chức năng quản lý danh mục
+15-04-2025 07:57:22.068 [Gauge] [INFO] ## Truy cập danh sách danh mục
+15-04-2025 07:57:22.075 [Gauge] [DEBUG] * Đăng nhập với tài khoản quản trị hợp lệ
+15-04-2025 07:57:24.051 [Gauge] [DEBUG] * Click vào phần Danh mục
+15-04-2025 07:57:25.012 [Gauge] [DEBUG] * Kiểm tra tiêu đề 'Quản lý Danh mục' được hiển thị
+
+15-04-2025 07:57:25.260 [Gauge] [INFO] ## Thêm mới danh mục
+15-04-2025 07:57:25.264 [Gauge] [DEBUG] * Click vào button Thêm mới
+15-04-2025 07:57:25.388 [Gauge] [DEBUG] * Nhập tên danh mục hợp lệ "Test Áo"
+15-04-2025 07:57:25.502 [Gauge] [DEBUG] * Chọn hình ảnh danh mục
+15-04-2025 07:57:25.725 [Gauge] [DEBUG] * Click vào button Thêm Danh Mục
+15-04-2025 07:57:25.837 [Gauge] [DEBUG] * Đóng thêm danh mục
+15-04-2025 07:57:25.946 [Gauge] [DEBUG] * Xem danh mục "Test Áo" đã có chưa
+
+15-04-2025 07:57:28.848 [Gauge] [INFO] ## Thêm mới danh mục - thiếu tên
+15-04-2025 07:57:28.853 [Gauge] [DEBUG] * Click vào button Thêm mới
+15-04-2025 07:57:28.962 [Gauge] [DEBUG] * Chọn hình ảnh danh mục
+15-04-2025 07:57:29.151 [Gauge] [DEBUG] * Click vào button Thêm Danh Mục
+15-04-2025 07:57:29.263 [Gauge] [DEBUG] * Kiểm tra thông báo lỗi thiếu tên danh mục
+15-04-2025 07:57:29.604 [Gauge] [DEBUG] * Đóng thêm danh mục
+
+15-04-2025 07:57:29.715 [Gauge] [INFO] ## Thêm mới danh mục - thiếu ảnh
+15-04-2025 07:57:29.719 [Gauge] [DEBUG] * Click vào button Thêm mới
+15-04-2025 07:57:29.832 [Gauge] [DEBUG] * Nhập tên danh mục hợp lệ "Test Áo"
+15-04-2025 07:57:29.908 [Gauge] [DEBUG] * Click vào button Thêm Danh Mục
+15-04-2025 07:57:30.037 [Gauge] [DEBUG] * Kiểm tra thông báo lỗi thiếu hình ảnh
+15-04-2025 07:57:30.281 [Gauge] [DEBUG] * Đóng thêm danh mục
+
+15-04-2025 07:57:30.394 [Gauge] [INFO] ## Thêm mới danh mục - danh mục đã tồn tại
+15-04-2025 07:57:30.399 [Gauge] [DEBUG] * Click vào button Thêm mới
+15-04-2025 07:57:30.514 [Gauge] [DEBUG] * Nhập tên danh mục hợp lệ "Test Áo"
+15-04-2025 07:57:30.589 [Gauge] [DEBUG] * Chọn hình ảnh danh mục
+15-04-2025 07:57:30.772 [Gauge] [DEBUG] * Click vào button Thêm Danh Mục
+15-04-2025 07:57:30.895 [Gauge] [DEBUG] * Kiểm tra thông báo lỗi danh mục trùng tên
+15-04-2025 07:57:31.350 [Gauge] [DEBUG] * Đóng thêm danh mục
+
+15-04-2025 07:57:31.460 [Gauge] [INFO] ## Chỉnh sửa danh mục - tên trống
+15-04-2025 07:57:31.464 [Gauge] [DEBUG] * Click vào icon chỉnh sửa
+15-04-2025 07:57:31.578 [Gauge] [DEBUG] * Xóa tên danh mục hiện tại và để trống
+15-04-2025 07:57:31.657 [Gauge] [DEBUG] * Click vào button Cập nhật Danh Mục
+15-04-2025 07:57:31.774 [Gauge] [DEBUG] * Kiểm tra thông báo lỗi thiếu tên danh mục
+15-04-2025 07:57:32.056 [Gauge] [DEBUG] * Đóng thêm danh mục
+
+15-04-2025 07:57:32.177 [Gauge] [INFO] ## Tìm danh mục đã tồn tại
+15-04-2025 07:57:32.181 [Gauge] [DEBUG] * Click vào phần tìm kiếm và làm trống
+15-04-2025 07:57:32.345 [Gauge] [DEBUG] * Nhập danh mục "Test Áo"
+15-04-2025 07:57:33.420 [Gauge] [DEBUG] * Xem danh mục "Test Áo" đã có chưa
+
+15-04-2025 07:57:33.436 [Gauge] [INFO] ## Tìm danh mục không tồn tại
+15-04-2025 07:57:33.441 [Gauge] [DEBUG] * Click vào phần tìm kiếm và làm trống
+15-04-2025 07:57:33.615 [Gauge] [DEBUG] * Nhập danh mục "ryiktyik  Tefndfjdgjdgjkjst"
+15-04-2025 07:57:34.688 [Gauge] [DEBUG] * Hiển thị Không tìm thấy danh mục nào
+
+15-04-2025 07:57:34.889 [Gauge] [INFO] ## Xóa danh mục
+15-04-2025 07:57:34.894 [Gauge] [DEBUG] * Click vào phần tìm kiếm và làm trống
+15-04-2025 07:57:35.065 [Gauge] [DEBUG] * Click vào phần Danh mục
+15-04-2025 07:57:35.182 [Gauge] [DEBUG] * Kiểm tra tiêu đề 'Quản lý Danh mục' được hiển thị
+15-04-2025 07:57:35.392 [Gauge] [DEBUG] * Lựa chọn tên danh mục cần xóa là "Test Áo"
+15-04-2025 07:57:35.525 [Gauge] [DEBUG] * Click vào icon xóa danh mục và xác nhận
+15-04-2025 07:57:35.686 [Gauge] [DEBUG] * Kiểm tra danh mục "Test Áo" đã được xóa khỏi danh sách
+15-04-2025 07:57:35.898 [html-report] [DEBUG] Transformed SuiteResult to report structure
+15-04-2025 07:57:35.928 [html-report] [INFO] Successfully generated html-report to => /home/devtaitv/WebstormProjects/DATN/Ecommerce/auto-test-ecommerce/reports/html-report/index.html
+15-04-2025 07:57:35.928 [html-report] [DEBUG] Done generating HTML report using theme from /home/devtaitv/.gauge/plugins/html-report/4.3.1/themes/default
+15-04-2025 07:57:35.928 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+15-04-2025 07:57:35.931 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+15-04-2025 07:57:35.931 [Gauge] [INFO] Scenarios:	9 executed	9 passed	0 failed	0 skipped
+15-04-2025 07:57:35.932 [Gauge] [INFO] 
+Total time taken: 16.021s

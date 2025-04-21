@@ -1,6 +1,7 @@
 import { Step } from 'gauge-ts';
 import { expect } from '@playwright/test';
 import { getPage,BASE_URL } from '../hooks';
+import { takeScreenshot } from '../helper/takeScreenshot';
 
 export default class AdminLoginSteps {
     private readonly selectors = {
@@ -71,6 +72,7 @@ export default class AdminLoginSteps {
             // Lấy nội dung và so sánh
             const actualMessage = await page.textContent(this.selectors.errorToast);
             expect(actualMessage?.trim()).toContain(expectedMessage);
+            await takeScreenshot('verify-invalid-login');
         } catch (error) {
             throw new Error(`Không tìm thấy thông báo lỗi: ${error}`);
         }
@@ -112,9 +114,13 @@ export default class AdminLoginSteps {
         if (!emailValue) {
             const msg = await emailInput.evaluate((el: HTMLInputElement) => el.validationMessage);
             expect(msg).toMatch(/please fill out this field|vui lòng điền|this field is required/i);
+            await takeScreenshot('please-fill');
+
         } else if (!passwordValue) {
             const msg = await passwordInput.evaluate((el: HTMLInputElement) => el.validationMessage);
             expect(msg).toMatch(/please fill out this field|vui lòng điền|this field is required/i);
+            await takeScreenshot('please-fill');
+
         } else {
             throw new Error('Cả email và mật khẩu đều có giá trị. Không có lỗi validation nào để kiểm tra');
         }
